@@ -1,0 +1,511 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 25/03/2017 17:45
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-clock-2:before { content: "\f100"; }
+.flaticon-food-1:before { content: "\f101"; }
+.flaticon-food:before { content: "\f102"; }
+.flaticon-cake:before { content: "\f103"; }
+.flaticon-location-2:before { content: "\f104"; }
+.flaticon-signs-1:before { content: "\f105"; }
+.flaticon-clock-1:before { content: "\f106"; }
+.flaticon-location-1:before { content: "\f107"; }
+.flaticon-location:before { content: "\f108"; }
+.flaticon-construction-1:before { content: "\f109"; }
+.flaticon-violin-1:before { content: "\f10a"; }
+.flaticon-domra:before { content: "\f10b"; }
+.flaticon-microphone-1:before { content: "\f10c"; }
+.flaticon-djembe:before { content: "\f10d"; }
+.flaticon-drum-4:before { content: "\f10e"; }
+.flaticon-maracas-1:before { content: "\f10f"; }
+.flaticon-chimes:before { content: "\f110"; }
+.flaticon-cymbals-1:before { content: "\f111"; }
+.flaticon-conga:before { content: "\f112"; }
+.flaticon-keyboard:before { content: "\f113"; }
+.flaticon-xylophone-2:before { content: "\f114"; }
+.flaticon-acoustic-guitar:before { content: "\f115"; }
+.flaticon-newborn:before { content: "\f116"; }
+.flaticon-plane:before { content: "\f117"; }
+.flaticon-baby-1:before { content: "\f118"; }
+.flaticon-cradle-1:before { content: "\f119"; }
+.flaticon-construction:before { content: "\f11a"; }
+.flaticon-cradle:before { content: "\f11b"; }
+.flaticon-train:before { content: "\f11c"; }
+.flaticon-moon:before { content: "\f11d"; }
+.flaticon-high-chair:before { content: "\f11e"; }
+.flaticon-socks:before { content: "\f11f"; }
+.flaticon-crib-toy:before { content: "\f120"; }
+.flaticon-drawing:before { content: "\f121"; }
+.flaticon-bicycle-1:before { content: "\f122"; }
+.flaticon-teddy-bear-1:before { content: "\f123"; }
+.flaticon-paper-boat:before { content: "\f124"; }
+.flaticon-body:before { content: "\f125"; }
+.flaticon-doll-1:before { content: "\f126"; }
+.flaticon-diaper:before { content: "\f127"; }
+.flaticon-sand-bucket:before { content: "\f128"; }
+.flaticon-bricks:before { content: "\f129"; }
+.flaticon-alarm-clock-1:before { content: "\f12a"; }
+.flaticon-briefcase:before { content: "\f12b"; }
+.flaticon-set-square-1:before { content: "\f12c"; }
+.flaticon-paint-palette:before { content: "\f12d"; }
+.flaticon-eraser:before { content: "\f12e"; }
+.flaticon-clip:before { content: "\f12f"; }
+.flaticon-compass:before { content: "\f130"; }
+.flaticon-bell-1:before { content: "\f131"; }
+.flaticon-earth-globe:before { content: "\f132"; }
+.flaticon-abacus-1:before { content: "\f133"; }
+.flaticon-test:before { content: "\f134"; }
+.flaticon-bookshelf:before { content: "\f135"; }
+.flaticon-school:before { content: "\f136"; }
+.flaticon-add:before { content: "\f137"; }
+.flaticon-gift:before { content: "\f138"; }
+.flaticon-barbecue:before { content: "\f139"; }
+.flaticon-christmas-sock:before { content: "\f13a"; }
+.flaticon-easter-eggs:before { content: "\f13b"; }
+.flaticon-baubles:before { content: "\f13c"; }
+.flaticon-mittens:before { content: "\f13d"; }
+.flaticon-snowman:before { content: "\f13e"; }
+.flaticon-vinyls:before { content: "\f13f"; }
+.flaticon-musical-note-1:before { content: "\f140"; }
+.flaticon-quaver:before { content: "\f141"; }
+.flaticon-ipod:before { content: "\f142"; }
+.flaticon-headphones:before { content: "\f143"; }
+.flaticon-music-6:before { content: "\f144"; }
+.flaticon-drumsticks:before { content: "\f145"; }
+.flaticon-cymbals:before { content: "\f146"; }
+.flaticon-music-5:before { content: "\f147"; }
+.flaticon-drum-3:before { content: "\f148"; }
+.flaticon-drum-2:before { content: "\f149"; }
+.flaticon-timpani:before { content: "\f14a"; }
+.flaticon-drum-1:before { content: "\f14b"; }
+.flaticon-drum:before { content: "\f14c"; }
+.flaticon-music-4:before { content: "\f14d"; }
+.flaticon-violin:before { content: "\f14e"; }
+.flaticon-ukelele:before { content: "\f14f"; }
+.flaticon-bass-guitar:before { content: "\f150"; }
+.flaticon-maracas:before { content: "\f151"; }
+.flaticon-saxophone:before { content: "\f152"; }
+.flaticon-piccolo:before { content: "\f153"; }
+.flaticon-trumpet:before { content: "\f154"; }
+.flaticon-trombone:before { content: "\f155"; }
+.flaticon-french-horn:before { content: "\f156"; }
+.flaticon-music-3:before { content: "\f157"; }
+.flaticon-music-2:before { content: "\f158"; }
+.flaticon-music-1:before { content: "\f159"; }
+.flaticon-music:before { content: "\f15a"; }
+.flaticon-triangle:before { content: "\f15b"; }
+.flaticon-xylophone-1:before { content: "\f15c"; }
+.flaticon-turntable:before { content: "\f15d"; }
+.flaticon-microphone:before { content: "\f15e"; }
+.flaticon-amplifier:before { content: "\f15f"; }
+.flaticon-equalizer:before { content: "\f160"; }
+.flaticon-workstation:before { content: "\f161"; }
+.flaticon-baby:before { content: "\f162"; }
+.flaticon-wind:before { content: "\f163"; }
+.flaticon-youtube:before { content: "\f164"; }
+.flaticon-twitter:before { content: "\f165"; }
+.flaticon-skype:before { content: "\f166"; }
+.flaticon-linkedin:before { content: "\f167"; }
+.flaticon-google-plus:before { content: "\f168"; }
+.flaticon-facebook:before { content: "\f169"; }
+.flaticon-pencil-2:before { content: "\f16a"; }
+.flaticon-draw-1:before { content: "\f16b"; }
+.flaticon-draw:before { content: "\f16c"; }
+.flaticon-set-square:before { content: "\f16d"; }
+.flaticon-rule:before { content: "\f16e"; }
+.flaticon-watercolor:before { content: "\f16f"; }
+.flaticon-agenda:before { content: "\f170"; }
+.flaticon-sports:before { content: "\f171"; }
+.flaticon-american-football-1:before { content: "\f172"; }
+.flaticon-grades:before { content: "\f173"; }
+.flaticon-paper-plane:before { content: "\f174"; }
+.flaticon-animals:before { content: "\f175"; }
+.flaticon-nature:before { content: "\f176"; }
+.flaticon-computer:before { content: "\f177"; }
+.flaticon-physics:before { content: "\f178"; }
+.flaticon-vision:before { content: "\f179"; }
+.flaticon-desk:before { content: "\f17a"; }
+.flaticon-teacher-desk:before { content: "\f17b"; }
+.flaticon-high-school:before { content: "\f17c"; }
+.flaticon-tray:before { content: "\f17d"; }
+.flaticon-swimming-pool:before { content: "\f17e"; }
+.flaticon-suitcase:before { content: "\f17f"; }
+.flaticon-snowflake:before { content: "\f180"; }
+.flaticon-first-aid-kit:before { content: "\f181"; }
+.flaticon-map:before { content: "\f182"; }
+.flaticon-forest:before { content: "\f183"; }
+.flaticon-signs:before { content: "\f184"; }
+.flaticon-clock:before { content: "\f185"; }
+.flaticon-bag:before { content: "\f186"; }
+.flaticon-girl:before { content: "\f187"; }
+.flaticon-joystick:before { content: "\f188"; }
+.flaticon-house:before { content: "\f189"; }
+.flaticon-top:before { content: "\f18a"; }
+.flaticon-bucket:before { content: "\f18b"; }
+.flaticon-bicycle:before { content: "\f18c"; }
+.flaticon-skipping-rope:before { content: "\f18d"; }
+.flaticon-boomerang:before { content: "\f18e"; }
+.flaticon-kindergarten:before { content: "\f18f"; }
+.flaticon-swing:before { content: "\f190"; }
+.flaticon-kite:before { content: "\f191"; }
+.flaticon-milk:before { content: "\f192"; }
+.flaticon-apple-2:before { content: "\f193"; }
+.flaticon-cutlery-1:before { content: "\f194"; }
+.flaticon-musical-note:before { content: "\f195"; }
+.flaticon-bell:before { content: "\f196"; }
+.flaticon-rattle:before { content: "\f197"; }
+.flaticon-synthesizer:before { content: "\f198"; }
+.flaticon-xylophone:before { content: "\f199"; }
+.flaticon-chair:before { content: "\f19a"; }
+.flaticon-puzzle-1:before { content: "\f19b"; }
+.flaticon-pencil-1:before { content: "\f19c"; }
+.flaticon-blocks:before { content: "\f19d"; }
+.flaticon-backpack:before { content: "\f19e"; }
+.flaticon-abacus:before { content: "\f19f"; }
+.flaticon-puzzle:before { content: "\f1a0"; }
+.flaticon-car:before { content: "\f1a1"; }
+.flaticon-helicopter:before { content: "\f1a2"; }
+.flaticon-clown:before { content: "\f1a3"; }
+.flaticon-doll:before { content: "\f1a4"; }
+.flaticon-teddy-bear:before { content: "\f1a5"; }
+.flaticon-alarm-clock:before { content: "\f1a6"; }
+.flaticon-game:before { content: "\f1a7"; }
+.flaticon-bacteria:before { content: "\f1a8"; }
+.flaticon-test-tube:before { content: "\f1a9"; }
+.flaticon-flasks:before { content: "\f1aa"; }
+.flaticon-scientist:before { content: "\f1ab"; }
+.flaticon-earth:before { content: "\f1ac"; }
+.flaticon-axis:before { content: "\f1ad"; }
+.flaticon-telescope:before { content: "\f1ae"; }
+.flaticon-solar-system:before { content: "\f1af"; }
+.flaticon-petri-dish:before { content: "\f1b0"; }
+.flaticon-molecular:before { content: "\f1b1"; }
+.flaticon-statistics:before { content: "\f1b2"; }
+.flaticon-apple-1:before { content: "\f1b3"; }
+.flaticon-rat:before { content: "\f1b4"; }
+.flaticon-molecule-1:before { content: "\f1b5"; }
+.flaticon-three-test-tubes:before { content: "\f1b6"; }
+.flaticon-water:before { content: "\f1b7"; }
+.flaticon-zoom:before { content: "\f1b8"; }
+.flaticon-square:before { content: "\f1b9"; }
+.flaticon-tool:before { content: "\f1ba"; }
+.flaticon-school-bus-front:before { content: "\f1bb"; }
+.flaticon-two-test-tubes:before { content: "\f1bc"; }
+.flaticon-children-backpack:before { content: "\f1bd"; }
+.flaticon-circle:before { content: "\f1be"; }
+.flaticon-close-button:before { content: "\f1bf"; }
+.flaticon-move-to-the-next-page-symbol:before { content: "\f1c0"; }
+.flaticon-left-arrow-chevron:before { content: "\f1c1"; }
+.flaticon-global:before { content: "\f1c2"; }
+.flaticon-teacher:before { content: "\f1c3"; }
+.flaticon-sharpener:before { content: "\f1c4"; }
+.flaticon-professor:before { content: "\f1c5"; }
+.flaticon-pencil:before { content: "\f1c6"; }
+.flaticon-kindergarden:before { content: "\f1c7"; }
+.flaticon-student-2:before { content: "\f1c8"; }
+.flaticon-easel:before { content: "\f1c9"; }
+.flaticon-court:before { content: "\f1ca"; }
+.flaticon-calculator:before { content: "\f1cb"; }
+.flaticon-school-bus-1:before { content: "\f1cc"; }
+.flaticon-student-1:before { content: "\f1cd"; }
+.flaticon-mountain:before { content: "\f1ce"; }
+.flaticon-bonfire:before { content: "\f1cf"; }
+.flaticon-open:before { content: "\f1d0"; }
+.flaticon-tea:before { content: "\f1d1"; }
+.flaticon-cupcake:before { content: "\f1d2"; }
+.flaticon-chicken:before { content: "\f1d3"; }
+.flaticon-cutlery:before { content: "\f1d4"; }
+.flaticon-salver:before { content: "\f1d5"; }
+.flaticon-ice-cream:before { content: "\f1d6"; }
+.flaticon-book-1:before { content: "\f1d7"; }
+.flaticon-open-book:before { content: "\f1d8"; }
+.flaticon-book:before { content: "\f1d9"; }
+.flaticon-board:before { content: "\f1da"; }
+.flaticon-blackboard:before { content: "\f1db"; }
+.flaticon-student:before { content: "\f1dc"; }
+.flaticon-diploma:before { content: "\f1dd"; }
+.flaticon-medal:before { content: "\f1de"; }
+.flaticon-glasses:before { content: "\f1df"; }
+.flaticon-mortarboard:before { content: "\f1e0"; }
+.flaticon-american-football:before { content: "\f1e1"; }
+.flaticon-notebook:before { content: "\f1e2"; }
+.flaticon-whistle:before { content: "\f1e3"; }
+.flaticon-momentum:before { content: "\f1e4"; }
+.flaticon-molecule:before { content: "\f1e5"; }
+.flaticon-microscope:before { content: "\f1e6"; }
+.flaticon-flask:before { content: "\f1e7"; }
+.flaticon-test-tubes:before { content: "\f1e8"; }
+.flaticon-apple:before { content: "\f1e9"; }
+.flaticon-school-bus:before { content: "\f1ea"; }
+.flaticon-light:before { content: "\f1eb"; }
+    
+    $font-Flaticon-clock-2: "\f100";
+    $font-Flaticon-food-1: "\f101";
+    $font-Flaticon-food: "\f102";
+    $font-Flaticon-cake: "\f103";
+    $font-Flaticon-location-2: "\f104";
+    $font-Flaticon-signs-1: "\f105";
+    $font-Flaticon-clock-1: "\f106";
+    $font-Flaticon-location-1: "\f107";
+    $font-Flaticon-location: "\f108";
+    $font-Flaticon-construction-1: "\f109";
+    $font-Flaticon-violin-1: "\f10a";
+    $font-Flaticon-domra: "\f10b";
+    $font-Flaticon-microphone-1: "\f10c";
+    $font-Flaticon-djembe: "\f10d";
+    $font-Flaticon-drum-4: "\f10e";
+    $font-Flaticon-maracas-1: "\f10f";
+    $font-Flaticon-chimes: "\f110";
+    $font-Flaticon-cymbals-1: "\f111";
+    $font-Flaticon-conga: "\f112";
+    $font-Flaticon-keyboard: "\f113";
+    $font-Flaticon-xylophone-2: "\f114";
+    $font-Flaticon-acoustic-guitar: "\f115";
+    $font-Flaticon-newborn: "\f116";
+    $font-Flaticon-plane: "\f117";
+    $font-Flaticon-baby-1: "\f118";
+    $font-Flaticon-cradle-1: "\f119";
+    $font-Flaticon-construction: "\f11a";
+    $font-Flaticon-cradle: "\f11b";
+    $font-Flaticon-train: "\f11c";
+    $font-Flaticon-moon: "\f11d";
+    $font-Flaticon-high-chair: "\f11e";
+    $font-Flaticon-socks: "\f11f";
+    $font-Flaticon-crib-toy: "\f120";
+    $font-Flaticon-drawing: "\f121";
+    $font-Flaticon-bicycle-1: "\f122";
+    $font-Flaticon-teddy-bear-1: "\f123";
+    $font-Flaticon-paper-boat: "\f124";
+    $font-Flaticon-body: "\f125";
+    $font-Flaticon-doll-1: "\f126";
+    $font-Flaticon-diaper: "\f127";
+    $font-Flaticon-sand-bucket: "\f128";
+    $font-Flaticon-bricks: "\f129";
+    $font-Flaticon-alarm-clock-1: "\f12a";
+    $font-Flaticon-briefcase: "\f12b";
+    $font-Flaticon-set-square-1: "\f12c";
+    $font-Flaticon-paint-palette: "\f12d";
+    $font-Flaticon-eraser: "\f12e";
+    $font-Flaticon-clip: "\f12f";
+    $font-Flaticon-compass: "\f130";
+    $font-Flaticon-bell-1: "\f131";
+    $font-Flaticon-earth-globe: "\f132";
+    $font-Flaticon-abacus-1: "\f133";
+    $font-Flaticon-test: "\f134";
+    $font-Flaticon-bookshelf: "\f135";
+    $font-Flaticon-school: "\f136";
+    $font-Flaticon-add: "\f137";
+    $font-Flaticon-gift: "\f138";
+    $font-Flaticon-barbecue: "\f139";
+    $font-Flaticon-christmas-sock: "\f13a";
+    $font-Flaticon-easter-eggs: "\f13b";
+    $font-Flaticon-baubles: "\f13c";
+    $font-Flaticon-mittens: "\f13d";
+    $font-Flaticon-snowman: "\f13e";
+    $font-Flaticon-vinyls: "\f13f";
+    $font-Flaticon-musical-note-1: "\f140";
+    $font-Flaticon-quaver: "\f141";
+    $font-Flaticon-ipod: "\f142";
+    $font-Flaticon-headphones: "\f143";
+    $font-Flaticon-music-6: "\f144";
+    $font-Flaticon-drumsticks: "\f145";
+    $font-Flaticon-cymbals: "\f146";
+    $font-Flaticon-music-5: "\f147";
+    $font-Flaticon-drum-3: "\f148";
+    $font-Flaticon-drum-2: "\f149";
+    $font-Flaticon-timpani: "\f14a";
+    $font-Flaticon-drum-1: "\f14b";
+    $font-Flaticon-drum: "\f14c";
+    $font-Flaticon-music-4: "\f14d";
+    $font-Flaticon-violin: "\f14e";
+    $font-Flaticon-ukelele: "\f14f";
+    $font-Flaticon-bass-guitar: "\f150";
+    $font-Flaticon-maracas: "\f151";
+    $font-Flaticon-saxophone: "\f152";
+    $font-Flaticon-piccolo: "\f153";
+    $font-Flaticon-trumpet: "\f154";
+    $font-Flaticon-trombone: "\f155";
+    $font-Flaticon-french-horn: "\f156";
+    $font-Flaticon-music-3: "\f157";
+    $font-Flaticon-music-2: "\f158";
+    $font-Flaticon-music-1: "\f159";
+    $font-Flaticon-music: "\f15a";
+    $font-Flaticon-triangle: "\f15b";
+    $font-Flaticon-xylophone-1: "\f15c";
+    $font-Flaticon-turntable: "\f15d";
+    $font-Flaticon-microphone: "\f15e";
+    $font-Flaticon-amplifier: "\f15f";
+    $font-Flaticon-equalizer: "\f160";
+    $font-Flaticon-workstation: "\f161";
+    $font-Flaticon-baby: "\f162";
+    $font-Flaticon-wind: "\f163";
+    $font-Flaticon-youtube: "\f164";
+    $font-Flaticon-twitter: "\f165";
+    $font-Flaticon-skype: "\f166";
+    $font-Flaticon-linkedin: "\f167";
+    $font-Flaticon-google-plus: "\f168";
+    $font-Flaticon-facebook: "\f169";
+    $font-Flaticon-pencil-2: "\f16a";
+    $font-Flaticon-draw-1: "\f16b";
+    $font-Flaticon-draw: "\f16c";
+    $font-Flaticon-set-square: "\f16d";
+    $font-Flaticon-rule: "\f16e";
+    $font-Flaticon-watercolor: "\f16f";
+    $font-Flaticon-agenda: "\f170";
+    $font-Flaticon-sports: "\f171";
+    $font-Flaticon-american-football-1: "\f172";
+    $font-Flaticon-grades: "\f173";
+    $font-Flaticon-paper-plane: "\f174";
+    $font-Flaticon-animals: "\f175";
+    $font-Flaticon-nature: "\f176";
+    $font-Flaticon-computer: "\f177";
+    $font-Flaticon-physics: "\f178";
+    $font-Flaticon-vision: "\f179";
+    $font-Flaticon-desk: "\f17a";
+    $font-Flaticon-teacher-desk: "\f17b";
+    $font-Flaticon-high-school: "\f17c";
+    $font-Flaticon-tray: "\f17d";
+    $font-Flaticon-swimming-pool: "\f17e";
+    $font-Flaticon-suitcase: "\f17f";
+    $font-Flaticon-snowflake: "\f180";
+    $font-Flaticon-first-aid-kit: "\f181";
+    $font-Flaticon-map: "\f182";
+    $font-Flaticon-forest: "\f183";
+    $font-Flaticon-signs: "\f184";
+    $font-Flaticon-clock: "\f185";
+    $font-Flaticon-bag: "\f186";
+    $font-Flaticon-girl: "\f187";
+    $font-Flaticon-joystick: "\f188";
+    $font-Flaticon-house: "\f189";
+    $font-Flaticon-top: "\f18a";
+    $font-Flaticon-bucket: "\f18b";
+    $font-Flaticon-bicycle: "\f18c";
+    $font-Flaticon-skipping-rope: "\f18d";
+    $font-Flaticon-boomerang: "\f18e";
+    $font-Flaticon-kindergarten: "\f18f";
+    $font-Flaticon-swing: "\f190";
+    $font-Flaticon-kite: "\f191";
+    $font-Flaticon-milk: "\f192";
+    $font-Flaticon-apple-2: "\f193";
+    $font-Flaticon-cutlery-1: "\f194";
+    $font-Flaticon-musical-note: "\f195";
+    $font-Flaticon-bell: "\f196";
+    $font-Flaticon-rattle: "\f197";
+    $font-Flaticon-synthesizer: "\f198";
+    $font-Flaticon-xylophone: "\f199";
+    $font-Flaticon-chair: "\f19a";
+    $font-Flaticon-puzzle-1: "\f19b";
+    $font-Flaticon-pencil-1: "\f19c";
+    $font-Flaticon-blocks: "\f19d";
+    $font-Flaticon-backpack: "\f19e";
+    $font-Flaticon-abacus: "\f19f";
+    $font-Flaticon-puzzle: "\f1a0";
+    $font-Flaticon-car: "\f1a1";
+    $font-Flaticon-helicopter: "\f1a2";
+    $font-Flaticon-clown: "\f1a3";
+    $font-Flaticon-doll: "\f1a4";
+    $font-Flaticon-teddy-bear: "\f1a5";
+    $font-Flaticon-alarm-clock: "\f1a6";
+    $font-Flaticon-game: "\f1a7";
+    $font-Flaticon-bacteria: "\f1a8";
+    $font-Flaticon-test-tube: "\f1a9";
+    $font-Flaticon-flasks: "\f1aa";
+    $font-Flaticon-scientist: "\f1ab";
+    $font-Flaticon-earth: "\f1ac";
+    $font-Flaticon-axis: "\f1ad";
+    $font-Flaticon-telescope: "\f1ae";
+    $font-Flaticon-solar-system: "\f1af";
+    $font-Flaticon-petri-dish: "\f1b0";
+    $font-Flaticon-molecular: "\f1b1";
+    $font-Flaticon-statistics: "\f1b2";
+    $font-Flaticon-apple-1: "\f1b3";
+    $font-Flaticon-rat: "\f1b4";
+    $font-Flaticon-molecule-1: "\f1b5";
+    $font-Flaticon-three-test-tubes: "\f1b6";
+    $font-Flaticon-water: "\f1b7";
+    $font-Flaticon-zoom: "\f1b8";
+    $font-Flaticon-square: "\f1b9";
+    $font-Flaticon-tool: "\f1ba";
+    $font-Flaticon-school-bus-front: "\f1bb";
+    $font-Flaticon-two-test-tubes: "\f1bc";
+    $font-Flaticon-children-backpack: "\f1bd";
+    $font-Flaticon-circle: "\f1be";
+    $font-Flaticon-close-button: "\f1bf";
+    $font-Flaticon-move-to-the-next-page-symbol: "\f1c0";
+    $font-Flaticon-left-arrow-chevron: "\f1c1";
+    $font-Flaticon-global: "\f1c2";
+    $font-Flaticon-teacher: "\f1c3";
+    $font-Flaticon-sharpener: "\f1c4";
+    $font-Flaticon-professor: "\f1c5";
+    $font-Flaticon-pencil: "\f1c6";
+    $font-Flaticon-kindergarden: "\f1c7";
+    $font-Flaticon-student-2: "\f1c8";
+    $font-Flaticon-easel: "\f1c9";
+    $font-Flaticon-court: "\f1ca";
+    $font-Flaticon-calculator: "\f1cb";
+    $font-Flaticon-school-bus-1: "\f1cc";
+    $font-Flaticon-student-1: "\f1cd";
+    $font-Flaticon-mountain: "\f1ce";
+    $font-Flaticon-bonfire: "\f1cf";
+    $font-Flaticon-open: "\f1d0";
+    $font-Flaticon-tea: "\f1d1";
+    $font-Flaticon-cupcake: "\f1d2";
+    $font-Flaticon-chicken: "\f1d3";
+    $font-Flaticon-cutlery: "\f1d4";
+    $font-Flaticon-salver: "\f1d5";
+    $font-Flaticon-ice-cream: "\f1d6";
+    $font-Flaticon-book-1: "\f1d7";
+    $font-Flaticon-open-book: "\f1d8";
+    $font-Flaticon-book: "\f1d9";
+    $font-Flaticon-board: "\f1da";
+    $font-Flaticon-blackboard: "\f1db";
+    $font-Flaticon-student: "\f1dc";
+    $font-Flaticon-diploma: "\f1dd";
+    $font-Flaticon-medal: "\f1de";
+    $font-Flaticon-glasses: "\f1df";
+    $font-Flaticon-mortarboard: "\f1e0";
+    $font-Flaticon-american-football: "\f1e1";
+    $font-Flaticon-notebook: "\f1e2";
+    $font-Flaticon-whistle: "\f1e3";
+    $font-Flaticon-momentum: "\f1e4";
+    $font-Flaticon-molecule: "\f1e5";
+    $font-Flaticon-microscope: "\f1e6";
+    $font-Flaticon-flask: "\f1e7";
+    $font-Flaticon-test-tubes: "\f1e8";
+    $font-Flaticon-apple: "\f1e9";
+    $font-Flaticon-school-bus: "\f1ea";
+    $font-Flaticon-light: "\f1eb";

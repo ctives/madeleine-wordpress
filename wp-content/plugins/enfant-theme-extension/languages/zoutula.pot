@@ -1,0 +1,1138 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Enfant Theme Extension\n"
+"POT-Creation-Date: 2017-06-29 20:39+0300\n"
+"PO-Revision-Date: 2017-06-29 20:38+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: enfant-theme-extension.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: enfant-theme-extension.php:20
+msgctxt "Category name"
+msgid "Staff"
+msgstr ""
+
+#: enfant-theme-extension.php:21
+msgctxt "Category item"
+msgid "Staff"
+msgstr ""
+
+#: enfant-theme-extension.php:22
+msgid "All Staff"
+msgstr ""
+
+#: enfant-theme-extension.php:24
+msgid "Add Staff Member"
+msgstr ""
+
+#: enfant-theme-extension.php:25
+msgctxt "zoutula"
+msgid "Add Staff Member"
+msgstr ""
+
+#: enfant-theme-extension.php:26
+msgid "Staff"
+msgstr ""
+
+#: enfant-theme-extension.php:48
+msgid "Staff Categories"
+msgstr ""
+
+#: enfant-theme-extension.php:49
+msgid "Staff Category"
+msgstr ""
+
+#: enfant-theme-extension.php:63
+msgctxt "Category name"
+msgid "Courses"
+msgstr ""
+
+#: enfant-theme-extension.php:64
+msgctxt "Category item"
+msgid "Course"
+msgstr ""
+
+#: enfant-theme-extension.php:65
+msgid "All Courses"
+msgstr ""
+
+#: enfant-theme-extension.php:67
+msgid "Add Course"
+msgstr ""
+
+#: enfant-theme-extension.php:68
+msgctxt "zoutula"
+msgid "Add Course"
+msgstr ""
+
+#: enfant-theme-extension.php:69
+msgid "Courses"
+msgstr ""
+
+#: enfant-theme-extension.php:92
+msgid "Courses Categories"
+msgstr ""
+
+#: enfant-theme-extension.php:93
+msgid "Course Category"
+msgstr ""
+
+#: enfant-theme-extension.php:106
+msgctxt "Category name"
+msgid "Events"
+msgstr ""
+
+#: enfant-theme-extension.php:107
+msgctxt "Category item"
+msgid "Event"
+msgstr ""
+
+#: enfant-theme-extension.php:108
+msgid "All Events"
+msgstr ""
+
+#: enfant-theme-extension.php:110
+msgid "Add Event"
+msgstr ""
+
+#: enfant-theme-extension.php:111
+msgctxt "zoutula"
+msgid "Add Event"
+msgstr ""
+
+#: enfant-theme-extension.php:112 shortcodes/posts_grid_ztl.php:88
+msgid "Events"
+msgstr ""
+
+#: enfant-theme-extension.php:134
+msgid "Events Categories"
+msgstr ""
+
+#: enfant-theme-extension.php:135
+msgid "Event Category"
+msgstr ""
+
+#: enfant-theme-extension.php:201 enfant-theme-extension.php:232
+#: enfant-theme-extension.php:263 shortcodes/announcement_ztl.php:255
+#: shortcodes/package_ztl.php:60 shortcodes/posts_grid_ztl.php:115
+#: shortcodes/pricing_plan_ztl.php:138 shortcodes/steps_ztl.php:222
+#: shortcodes/subscriber_ztl.php:233 shortcodes/testimonials_ztl.php:255
+#: shortcodes/title_ztl.php:57 shortcodes/title_ztl.php:69
+msgid "Title"
+msgstr ""
+
+#: enfant-theme-extension.php:202 enfant-theme-extension.php:233
+#: enfant-theme-extension.php:264
+msgid "Category"
+msgstr ""
+
+#: enfant-theme-extension.php:203 enfant-theme-extension.php:234
+#: enfant-theme-extension.php:265 shortcodes/countdown_ztl.php:87
+#: shortcodes/posts_grid_ztl.php:114
+msgid "Date"
+msgstr ""
+
+#: enfant-theme-extension.php:326 shortcodes/announcement_ztl.php:126
+#: shortcodes/counter_ztl.php:89 shortcodes/subscriber_ztl.php:104
+msgid "Zoutula Icons"
+msgstr ""
+
+#: enfant-theme-extension.php:333 shortcodes/announcement_ztl.php:135
+#: shortcodes/announcement_ztl.php:152 shortcodes/announcement_ztl.php:169
+#: shortcodes/announcement_ztl.php:186 shortcodes/announcement_ztl.php:202
+#: shortcodes/announcement_ztl.php:219 shortcodes/counter_ztl.php:97
+#: shortcodes/counter_ztl.php:113 shortcodes/counter_ztl.php:129
+#: shortcodes/counter_ztl.php:145 shortcodes/counter_ztl.php:160
+#: shortcodes/counter_ztl.php:176 shortcodes/subscriber_ztl.php:113
+#: shortcodes/subscriber_ztl.php:130 shortcodes/subscriber_ztl.php:147
+#: shortcodes/subscriber_ztl.php:164 shortcodes/subscriber_ztl.php:180
+#: shortcodes/subscriber_ztl.php:197
+msgid "Icon"
+msgstr ""
+
+#: enfant-theme-extension.php:345 shortcodes/announcement_ztl.php:147
+#: shortcodes/announcement_ztl.php:164 shortcodes/announcement_ztl.php:181
+#: shortcodes/announcement_ztl.php:214 shortcodes/announcement_ztl.php:231
+#: shortcodes/counter_ztl.php:109 shortcodes/counter_ztl.php:125
+#: shortcodes/counter_ztl.php:141 shortcodes/counter_ztl.php:172
+#: shortcodes/counter_ztl.php:188 shortcodes/subscriber_ztl.php:125
+#: shortcodes/subscriber_ztl.php:142 shortcodes/subscriber_ztl.php:159
+#: shortcodes/subscriber_ztl.php:192 shortcodes/subscriber_ztl.php:209
+msgid "Select icon from library."
+msgstr ""
+
+#: enfant-theme-extension.php:352
+msgid "Large Zoutula"
+msgstr ""
+
+#: enfant-theme-extension.php:649 enfant-theme-extension.php:658
+#: enfant-theme-extension.php:668
+msgid ""
+"After you import this demo, you will have to import the Revolution Slider "
+"and Essential Grid data separately."
+msgstr ""
+
+#: metaboxes.php:14
+msgid "Event Location"
+msgstr ""
+
+#: metaboxes.php:28
+msgid "Add event location"
+msgstr ""
+
+#: metaboxes.php:73
+msgid "Event Date"
+msgstr ""
+
+#: metaboxes.php:94
+msgid "Add event date"
+msgstr ""
+
+#: metaboxes.php:145
+msgid "Event Duration"
+msgstr ""
+
+#: metaboxes.php:159
+msgid "Add event duration"
+msgstr ""
+
+#: metaboxes.php:198
+msgid "Sidebar options"
+msgstr ""
+
+#: metaboxes.php:216
+msgid "Select sidebar position:"
+msgstr ""
+
+#: metaboxes.php:261 metaboxes.php:277
+msgid "Show Header"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:107
+msgid "Announcement"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:109
+msgid "Add announcement"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:113 shortcodes/countdown_ztl.php:81
+#: shortcodes/counter_ztl.php:75 shortcodes/divider_ztl.php:52
+#: shortcodes/map_ztl.php:118 shortcodes/package_ztl.php:54
+#: shortcodes/posts_grid_ztl.php:77 shortcodes/pricing_plan_ztl.php:121
+#: shortcodes/steps_ztl.php:102 shortcodes/subscriber_ztl.php:91
+#: shortcodes/testimonials_ztl.php:88 shortcodes/title_ztl.php:63
+msgid "Zoutula Shortcodes"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:119 shortcodes/counter_ztl.php:82
+#: shortcodes/subscriber_ztl.php:97
+msgid "Icon library"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:121 shortcodes/counter_ztl.php:84
+#: shortcodes/subscriber_ztl.php:99
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:122 shortcodes/counter_ztl.php:85
+#: shortcodes/subscriber_ztl.php:100
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:123 shortcodes/counter_ztl.php:86
+#: shortcodes/subscriber_ztl.php:101
+msgid "Open Iconic"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:124 shortcodes/counter_ztl.php:87
+#: shortcodes/subscriber_ztl.php:102
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:125 shortcodes/counter_ztl.php:88
+#: shortcodes/subscriber_ztl.php:103
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:130 shortcodes/counter_ztl.php:93
+#: shortcodes/subscriber_ztl.php:108
+msgid "Select icon library."
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:237
+msgid "Icon Color"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:240 shortcodes/counter_ztl.php:204
+#: shortcodes/subscriber_ztl.php:218
+msgid "Choose icon color"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:246
+msgid "Icon Background Color"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:249 shortcodes/subscriber_ztl.php:227
+msgid "Choose icon background color"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:258 shortcodes/subscriber_ztl.php:236
+msgid "Select announcement title"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:263 shortcodes/package_ztl.php:67
+#: shortcodes/pricing_plan_ztl.php:147
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:265
+msgid "Select announcement subtitle"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:271
+msgid "Text Color"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:274 shortcodes/divider_ztl.php:84
+#: shortcodes/subscriber_ztl.php:252
+msgid "Choose color for this particular element."
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:279 shortcodes/pricing_plan_ztl.php:225
+msgid "Button Link"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:281 shortcodes/pricing_plan_ztl.php:227
+msgid "Set button link"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:286 shortcodes/divider_ztl.php:56
+#: shortcodes/pricing_plan_ztl.php:126
+msgid "Style"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:289 shortcodes/divider_ztl.php:60
+#: shortcodes/pricing_plan_ztl.php:129
+msgid "Primary"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:290 shortcodes/divider_ztl.php:61
+#: shortcodes/pricing_plan_ztl.php:130
+msgid "Secondary"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:292 shortcodes/pricing_plan_ztl.php:239
+msgid "Select button style"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:298 shortcodes/package_ztl.php:118
+#: shortcodes/steps_ztl.php:129 shortcodes/subscriber_ztl.php:258
+#: shortcodes/testimonials_ztl.php:123
+msgid "Class"
+msgstr ""
+
+#: shortcodes/announcement_ztl.php:300 shortcodes/package_ztl.php:120
+#: shortcodes/pricing_plan_ztl.php:263 shortcodes/steps_ztl.php:131
+#: shortcodes/subscriber_ztl.php:260 shortcodes/testimonials_ztl.php:125
+msgid "Custom Class"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:31
+msgid "Days"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:32
+msgid "Hours"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:33
+msgid "Minutes"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:34
+msgid "Seconds"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:75
+msgid "Countdown"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:77
+msgid "Add event countdown"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:90
+msgid "Insert the Date E.g. May 23, 2018 12:14:20"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:94
+msgid "Show Days"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:96
+msgid "Check it for display days"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:103
+msgid "Show Hours"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:105
+msgid "Check it for display hours"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:112
+msgid "Show Minutes"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:114
+msgid "Check it for display minutes"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:122
+msgid "Show Seconds"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:124
+msgid "Check it for display seconds"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:132
+msgid "Number Color"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:134 shortcodes/steps_ztl.php:209
+msgid "Select the number color. E.g. #ff0000"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:139 shortcodes/posts_grid_ztl.php:136
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:142
+msgid "4 Columns"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:143
+msgid "3 Columns"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:144
+msgid "2 Columns"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:145 shortcodes/posts_grid_ztl.php:141
+msgid "1 Column"
+msgstr ""
+
+#: shortcodes/countdown_ztl.php:146
+msgid "Choose number of columns"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:72
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:76
+msgid "Add counter"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:192 shortcodes/steps_ztl.php:198
+msgid "Number"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:195
+msgid "Enter the number of counter"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:201 shortcodes/subscriber_ztl.php:215
+msgid "Icon color"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:209 shortcodes/pricing_plan_ztl.php:156
+#: shortcodes/steps_ztl.php:230 shortcodes/testimonials_ztl.php:264
+msgid "Description"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:212
+msgid "Enter the description of counter"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:218 shortcodes/package_ztl.php:75
+#: shortcodes/subscriber_ztl.php:249
+msgid "Text color"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:221 shortcodes/package_ztl.php:78
+msgid "Choose text color"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:226 shortcodes/divider_ztl.php:89
+msgid "Extra class name"
+msgstr ""
+
+#: shortcodes/counter_ztl.php:229 shortcodes/divider_ztl.php:91
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: shortcodes/divider_ztl.php:46
+msgid "Divider"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:48
+msgid "Add divider"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:59 shortcodes/divider_ztl.php:70
+#: shortcodes/map_ztl.php:146 shortcodes/map_ztl.php:157
+#: shortcodes/posts_grid_ztl.php:87 shortcodes/posts_grid_ztl.php:113
+#: shortcodes/posts_grid_ztl.php:127 shortcodes/posts_grid_ztl.php:140
+#: shortcodes/pricing_plan_ztl.php:128 shortcodes/pricing_plan_ztl.php:234
+#: shortcodes/title_ztl.php:96 shortcodes/title_ztl.php:106
+msgid "Select"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:63
+msgid "Select element style"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:67
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:71
+msgid "Left"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:72
+msgid "Right"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:73
+msgid "Center"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:75
+msgid "Select alignment"
+msgstr ""
+
+#: shortcodes/divider_ztl.php:81
+msgid "Divider color"
+msgstr ""
+
+#: shortcodes/inc/loop/events.php:61
+msgid "Register"
+msgstr ""
+
+#: shortcodes/map_ztl.php:30
+msgid ""
+"This Google Map cannot be loaded because there is no API key loaded. Please "
+"check documentation."
+msgstr ""
+
+#: shortcodes/map_ztl.php:32
+msgid ""
+"This Google Map cannot be loaded because there are no coordinates set. "
+"Please check documentation."
+msgstr ""
+
+#: shortcodes/map_ztl.php:112
+msgid "Map"
+msgstr ""
+
+#: shortcodes/map_ztl.php:114
+msgid "Add Map"
+msgstr ""
+
+#: shortcodes/map_ztl.php:123
+msgid "Map coordinates"
+msgstr ""
+
+#: shortcodes/map_ztl.php:125
+msgid ""
+"Your coordinates should include latitude and longitude. E.g. 51.502188, "
+"-0.173143"
+msgstr ""
+
+#: shortcodes/map_ztl.php:130
+msgid "Map width"
+msgstr ""
+
+#: shortcodes/map_ztl.php:132
+msgid "Your map width. E.g. 100%"
+msgstr ""
+
+#: shortcodes/map_ztl.php:137
+msgid "Map height"
+msgstr ""
+
+#: shortcodes/map_ztl.php:139
+msgid "Your map width. E.g. 450px"
+msgstr ""
+
+#: shortcodes/map_ztl.php:143
+msgid "Enable scroll wheel"
+msgstr ""
+
+#: shortcodes/map_ztl.php:147 shortcodes/map_ztl.php:158
+msgid "True"
+msgstr ""
+
+#: shortcodes/map_ztl.php:148 shortcodes/map_ztl.php:159
+msgid "False"
+msgstr ""
+
+#: shortcodes/map_ztl.php:150
+msgid "Enable map scroll wheel"
+msgstr ""
+
+#: shortcodes/map_ztl.php:154
+msgid "Disable controls"
+msgstr ""
+
+#: shortcodes/map_ztl.php:161
+msgid "Disable map controls"
+msgstr ""
+
+#: shortcodes/map_ztl.php:166
+msgid "Map zoom"
+msgstr ""
+
+#: shortcodes/map_ztl.php:168
+msgid ""
+"Our default zoom level is set to 15. You can increase or decrease up to your "
+"needs."
+msgstr ""
+
+#: shortcodes/map_ztl.php:173 shortcodes/map_ztl.php:175
+msgid "Marker image"
+msgstr ""
+
+#: shortcodes/map_ztl.php:180
+msgid "Custom style"
+msgstr ""
+
+#: shortcodes/map_ztl.php:182
+msgid ""
+"You can add here a JavaScript style array. More on: https://snazzymaps.com"
+msgstr ""
+
+#: shortcodes/package_ztl.php:48
+msgid "Package"
+msgstr ""
+
+#: shortcodes/package_ztl.php:50
+msgid "Add package"
+msgstr ""
+
+#: shortcodes/package_ztl.php:63
+msgid "Select package title"
+msgstr ""
+
+#: shortcodes/package_ztl.php:69
+msgid "Select package subtitle"
+msgstr ""
+
+#: shortcodes/package_ztl.php:85
+msgid "Price value"
+msgstr ""
+
+#: shortcodes/package_ztl.php:87
+msgid "Set price value may contain decimals like: <sup>00</sup>"
+msgstr ""
+
+#: shortcodes/package_ztl.php:92
+msgid "Time period"
+msgstr ""
+
+#: shortcodes/package_ztl.php:94
+msgid "Set time period"
+msgstr ""
+
+#: shortcodes/package_ztl.php:100
+msgid "Bullet text color"
+msgstr ""
+
+#: shortcodes/package_ztl.php:103
+msgid "Choose bullet text color"
+msgstr ""
+
+#: shortcodes/package_ztl.php:109
+msgid "Bullet background color"
+msgstr ""
+
+#: shortcodes/package_ztl.php:112
+msgid "Choose bullet background color"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:71
+msgid "Posts Grid"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:73
+msgid "Insert Posts Grid"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:83
+msgid "Post Type"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:90
+msgid "Choose the post type"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:95
+msgid "Categories "
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:98
+msgid ""
+"Insert the category (from current taxonomy) SLUG separated by comma without "
+"space. E.g. category1, category2 "
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:103
+msgid "Posts per page "
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:105
+msgid ""
+"Insert the number of posts that you want to show. E.g. 3. Leave empty for "
+"show the default settings of WP (Settings -> Reading)"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:110
+msgid "Order By"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:116
+msgid "Rand"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:117
+msgid "Modified"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:119
+msgid "Choose the order of the visualization"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:128
+msgid "Desc"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:129
+msgid "Asc"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:131
+msgid "Choose items order"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:143
+msgid "Choose columns style"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:149
+msgid "Order by Event Date"
+msgstr ""
+
+#: shortcodes/posts_grid_ztl.php:153
+msgid "Check for order by EVENT date (overrides other ordering)"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:115
+msgid "Pricing plan"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:117
+msgid "Add pricing plan"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:131
+msgid "Tertiary"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:132
+msgid "Select style"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:141 shortcodes/title_ztl.php:72
+msgid "Insert the title"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:150
+msgid "Insert the subtitle"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:158
+msgid "Insert the description"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:164
+msgid "Price text"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:167
+msgid "Set the price for this plan. E.g. 23"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:173
+msgid "Currency"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:176
+msgid "Enter currency symbol or text E.g. $ or USD."
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:182
+msgid "Time"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:185
+msgid "Choose time span for you plan E.g. /mo, month or /yr"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:190
+msgid "Description Text Color"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:192
+msgid "Select the description text color. E.g. #545454"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:197
+msgid "Main Color"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:199
+msgid "Select the main color. E.g. #00ff00"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:204
+msgid "Accent Color"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:206
+msgid "Select the accent color. E.g. #ff0000"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:211
+msgid "Header Text Color"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:213
+msgid "Select the header text color (for title and subtitle) E.g. #ffffff"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:218
+msgid "Plan Background Color"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:220
+msgid "Select the plan background color E.g. #f2f2f2"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:232
+msgid "Button Style"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:235
+msgid "Style One"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:236
+msgid "Style Two"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:237
+msgid "Style Three"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:238
+msgid "Style Four"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:244
+msgid "Show Button"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:246
+msgid "Check it for button to show"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:255
+msgid "Max width"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:257
+#, php-format
+msgid "Max width E.g.: 90% or 300px"
+msgstr ""
+
+#: shortcodes/pricing_plan_ztl.php:265 shortcodes/title_ztl.php:131
+msgid "Insert custom class Eg. signature"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:93
+msgid "Steps"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:98
+msgid "Add steps box"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:106
+msgid "Slider autoplay"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:109 shortcodes/testimonials_ztl.php:95
+msgid ""
+"Duration of animation between slides (in ms). Enter the value is 0 or empty "
+"if you want the slider not auto-play"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:113
+msgid "Enable navigation"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:115 shortcodes/steps_ztl.php:123
+#: shortcodes/testimonials_ztl.php:101 shortcodes/testimonials_ztl.php:109
+#: shortcodes/testimonials_ztl.php:117
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:116 shortcodes/testimonials_ztl.php:102
+msgid "If \"YES\" prev / next control will be enabled. "
+msgstr ""
+
+#: shortcodes/steps_ztl.php:121 shortcodes/testimonials_ztl.php:115
+msgid "Enable the Items Loop"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:124 shortcodes/testimonials_ztl.php:118
+msgid "If \"YES\" carousel will loop the items. "
+msgstr ""
+
+#: shortcodes/steps_ztl.php:189
+msgid "Step"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:201
+msgid "Enter the number of step"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:206
+msgid "Number color"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:214
+msgid "Number background color"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:217
+msgid "Select the number backgroun color. E.g. #ff0000"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:225
+msgid "Enter the title of content"
+msgstr ""
+
+#: shortcodes/steps_ztl.php:233
+msgid "Enter the content of this box"
+msgstr ""
+
+#: shortcodes/subscriber_ztl.php:85
+msgid "Subscriber"
+msgstr ""
+
+#: shortcodes/subscriber_ztl.php:87
+msgid "Add subscribe box"
+msgstr ""
+
+#: shortcodes/subscriber_ztl.php:224
+msgid "Icon background color"
+msgstr ""
+
+#: shortcodes/subscriber_ztl.php:241
+msgid "Subscribe form ID"
+msgstr ""
+
+#: shortcodes/subscriber_ztl.php:243
+msgid "Choose your proffered form and add above the ID (E.g.: 2305) "
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:79
+msgid "Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:84
+msgid "Add testimonial box"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:92
+msgid "Slider Autoplay"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:99
+msgid "Enable Navigation"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:107
+msgid "Enable Dots Navigation"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:110
+msgid "If \"YES\" navigation dots will be enabled. "
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:205
+msgid "Testimonial"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:214
+msgid "Title Color"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:217 shortcodes/title_ztl.php:124
+msgid "Select the title color. E.g. #ff0000"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:223
+msgid "Before Title Quote"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:225
+msgid "This image will be displayed before title (min 128px x 128px)"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:230
+msgid "After Title Quote"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:232
+msgid "This image will be displayed after title (min 128px x 128px)"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:237
+msgid "Description Color"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:240
+msgid "Select the description color. E.g. #ff0000"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:246
+msgid "Author Image Border Color"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:249
+msgid "Select the author image border color. E.g. #ff0000"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:258
+msgid "Enter the testimonial title"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:267
+msgid "Enter the testimonial content"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:272
+msgid "Author Name"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:275
+msgid "Enter the author name"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:280
+msgid "Image Author"
+msgstr ""
+
+#: shortcodes/testimonials_ztl.php:282
+msgid "Select images from media library."
+msgstr ""
+
+#: shortcodes/title_ztl.php:59
+msgid "Add title"
+msgstr ""
+
+#: shortcodes/title_ztl.php:80
+msgid "Select your tag"
+msgstr ""
+
+#: shortcodes/title_ztl.php:86 shortcodes/title_ztl.php:89
+msgid "Line height"
+msgstr ""
+
+#: shortcodes/title_ztl.php:97
+msgid "Main Font"
+msgstr ""
+
+#: shortcodes/title_ztl.php:98
+msgid "Accent Font"
+msgstr ""
+
+#: shortcodes/title_ztl.php:99 shortcodes/title_ztl.php:110
+msgid "Select your style (Fonts can be managed via Customizer)"
+msgstr ""
+
+#: shortcodes/title_ztl.php:107
+msgid "Light"
+msgstr ""
+
+#: shortcodes/title_ztl.php:108
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/title_ztl.php:109
+msgid "Bold"
+msgstr ""
+
+#: shortcodes/title_ztl.php:118
+msgid "Choose the alignment"
+msgstr ""
+
+#: shortcodes/title_ztl.php:122
+msgid "Custom Color"
+msgstr ""
+
+#: shortcodes/title_ztl.php:129
+msgid "Custom class"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Enfant Theme Extension"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://zoutula.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin handles Enfant Theme custom content like staff, courses and "
+"shortcodes. It's activated/deactivated with the theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Zoutula"
+msgstr ""

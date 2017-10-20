@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<!--
+  Flaticon icon font: Flaticon
+  Creation date: 25/03/2017 17:45
+-->
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    body {
+        font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: #222;
+    }
+    a {
+        color: #333;
+        border-bottom: 1px solid #a9fd00;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 1em;
+    }
+    .title {
+        font-size: 1.25em;
+        text-align: center;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+    header {
+        text-align: center;
+        background-color: #222;
+        color: #fff;
+        padding: 1em;
+    }
+    header .logo {
+        width: 210px;
+        height: 38px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1em;
+        border: none;
+    }
+    header strong {
+        font-size: 1.95em;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .demo {
+        margin: 2em auto;
+        line-height: 1.25em;
+    }
+    .demo ul li {
+        margin-bottom: 1em;
+    }
+    .demo ul li .num {
+        color: #222;
+        border-radius: 20px;
+        display: inline-block;
+        width: 26px;
+        padding: 3px;
+        height: 26px;
+        text-align: center;
+        margin-right: 0.5em;
+        border: 1px solid #222;
+    }
+    .demo ul li code {
+        background-color: #222;
+        border-radius: 4px;
+        padding: 0.25em 0.5em;
+        display: inline-block;
+        color: #fff;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        font-weight: lighter;
+        margin-top: 1em;
+        font-size: 0.8em;
+        word-break: break-all;
+    }
+    .demo ul li code.big {
+        padding: 1em;
+        font-size: 0.9em;
+    }
+    .demo ul li code .red {
+        color: #EF3159;
+    }
+    .demo ul li code .green {
+        color: #ACFF65;
+    }
+    .demo ul li code .yellow {
+        color: #FFFF99;
+    }
+    .demo ul li code .blue {
+        color: #99D3FF;
+    }
+    .demo ul li code .purple {
+        color: #A295FF;
+    }
+    .demo ul li code .dots {
+        margin-top: 0.5em;
+        display: block;
+    }
+    #glyphs {
+        border-bottom: 1px solid #ccc;
+        padding: 2em 0;
+        text-align: center;
+    }
+    .glyph {
+        display: inline-block;
+        width: 9em;
+        margin: 1em;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #222;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+        padding: 0.5em;
+        color: #FFFF99;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    .author-name {
+        font-size: 0.6em;
+        background-color: #fcfcfd;
+        border: 1px solid #DEDEE4;
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+        padding: 0.5em;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#a9fd00;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .attribution .title {
+        margin-top: 2em;
+    }
+    .attribution textarea {
+        background-color: #fcfcfd;
+        padding: 1em;
+        border: none;
+        box-shadow: none;
+        border: 1px solid #DEDEE4;
+        border-radius: 4px;
+        resize: none;
+        width: 100%;
+        height: 150px;
+        font-size: 0.8em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        -webkit-appearance: none;
+    }
+    .iconsuse {
+        margin: 2em auto;
+        text-align: center;
+        max-width: 1200px;
+    }
+    .iconsuse:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .iconsuse .image {
+        float: left;
+        width: 25%;
+        padding: 0 1em;
+    }
+    .iconsuse .image p {
+        margin-bottom: 1em;
+    }
+    .iconsuse .image span {
+        display: block;
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px;
+        padding: 0.5em;
+        color: #FFFF99;
+        margin-top: 1em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    #footer {
+        text-align: center;
+        background-color: #4C5B5C;
+        color: #7c9192;
+        padding: 1em;
+    }
+    #footer a {
+        border: none;
+        color: #a9fd00;
+        font-weight: normal;
+    }
+    @media (max-width: 960px) {
+        .iconsuse .image {
+            width: 50%;
+        }
+    }
+    @media (max-width: 560px) {
+        .iconsuse .image {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+
+<body class="characters-off">
+
+    <header>
+        <a href="http://www.flaticon.com" target="_blank" class="logo">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 560.875 102.036" enable-background="new 0 0 560.875 102.036" xml:space="preserve">
+                <defs>
+                </defs>
+                <g>
+                    <g class="letters">
+                        <path fill="#ffffff" d="M141.596,29.675c0-3.777,2.985-6.767,6.764-6.767h34.438c3.426,0,6.15,2.728,6.15,6.15
+                        c0,3.43-2.724,6.149-6.15,6.149h-27.674v13.091h23.719c3.429,0,6.151,2.724,6.151,6.15c0,3.43-2.723,6.149-6.151,6.149h-23.719
+                        v17.574c0,3.773-2.986,6.761-6.764,6.761c-3.779,0-6.764-2.989-6.764-6.761V29.675z"></path>
+                        <path fill="#ffffff" d="M193.844,29.149c0-3.781,2.985-6.767,6.764-6.767c3.776,0,6.763,2.985,6.763,6.767v42.957h25.039
+                        c3.426,0,6.149,2.726,6.149,6.153c0,3.425-2.723,6.15-6.149,6.15h-31.802c-3.779,0-6.764-2.986-6.764-6.768V29.149z"></path>
+                        <path fill="#ffffff" d="M241.891,75.71l21.438-48.407c1.492-3.341,4.215-5.357,7.906-5.357h0.792
+                        c3.686,0,6.323,2.017,7.815,5.357l21.439,48.407c0.436,0.967,0.701,1.845,0.701,2.723c0,3.602-2.809,6.501-6.414,6.501
+                        c-3.161,0-5.269-1.845-6.499-4.655l-4.132-9.661h-27.059l-4.301,10.102c-1.144,2.631-3.426,4.214-6.237,4.214
+                        c-3.517,0-6.24-2.81-6.24-6.325C241.1,77.64,241.451,76.677,241.891,75.71z M279.932,58.666l-8.521-20.297l-8.526,20.297H279.932
+                        z"></path>
+                        <path fill="#ffffff" d="M314.864,35.387H301.86c-3.429,0-6.239-2.813-6.239-6.238c0-3.429,2.811-6.24,6.239-6.24h39.533
+                        c3.426,0,6.237,2.811,6.237,6.24c0,3.425-2.811,6.238-6.237,6.238h-13.001v42.785c0,3.773-2.99,6.761-6.764,6.761
+                        c-3.779,0-6.764-2.989-6.764-6.761V35.387z"></path>
+                        <path fill="#A9FD00" d="M352.615,29.149c0-3.781,2.985-6.767,6.767-6.767c3.774,0,6.761,2.985,6.761,6.767v49.024
+                        c0,3.773-2.987,6.761-6.761,6.761c-3.781,0-6.767-2.989-6.767-6.761V29.149z"></path>
+                        <path fill="#A9FD00" d="M374.132,53.836v-0.179c0-17.481,13.178-31.801,32.065-31.801c9.22,0,15.459,2.458,20.557,6.238
+                        c1.402,1.054,2.637,2.985,2.637,5.357c0,3.692-2.985,6.59-6.681,6.59c-1.845,0-3.071-0.702-4.044-1.319
+                        c-3.776-2.813-7.729-4.393-12.562-4.393c-10.364,0-17.831,8.611-17.831,19.154v0.173c0,10.542,7.291,19.329,17.831,19.329
+                        c5.715,0,9.492-1.756,13.359-4.834c1.049-0.874,2.458-1.491,4.039-1.491c3.429,0,6.325,2.813,6.325,6.236
+                        c0,2.106-1.056,3.78-2.282,4.834c-5.539,4.834-12.036,7.733-21.878,7.733C387.572,85.464,374.132,71.493,374.132,53.836z"></path>
+                        <path fill="#A9FD00" d="M433.009,53.836v-0.179c0-17.481,13.79-31.801,32.766-31.801c18.981,0,32.592,14.143,32.592,31.628v0.173
+                        c0,17.483-13.785,31.807-32.769,31.807C446.625,85.464,433.009,71.32,433.009,53.836z M484.224,53.836v-0.179
+                        c0-10.539-7.725-19.326-18.626-19.326c-10.893,0-18.449,8.611-18.449,19.154v0.173c0,10.542,7.73,19.329,18.626,19.329
+                        C476.676,72.986,484.224,64.378,484.224,53.836z"></path>
+                        <path fill="#A9FD00" d="M506.233,29.321c0-3.774,2.99-6.763,6.767-6.763h1.401c3.252,0,5.183,1.583,7.029,3.953l26.093,34.265
+                        V29.059c0-3.692,2.99-6.677,6.681-6.677c3.683,0,6.671,2.985,6.671,6.677v48.934c0,3.78-2.987,6.765-6.764,6.765h-0.436
+                        c-3.257,0-5.188-1.581-7.034-3.953l-27.056-35.492v32.944c0,3.687-2.985,6.676-6.678,6.676c-3.683,0-6.673-2.989-6.673-6.676
+                        V29.321z"></path>
+                    </g>
+                    <g class="insignia">
+                        <path fill="#ffffff" d="M48.372,56.137h12.517l11.156-18.537H37.186L25.688,18.539h57.825L94.668,0H9.271
+                        C5.925,0,2.842,1.801,1.198,4.716c-1.644,2.907-1.593,6.482,0.134,9.343l50.38,83.501c1.678,2.781,4.689,4.476,7.938,4.476
+                        c3.246,0,6.257-1.695,7.935-4.476l2.898-4.804L48.372,56.137z"></path>
+                        <g class="i">
+                            <path fill="#A9FD00" d="M93.575,18.539h0.031v0.004l21.652,0.004l2.705-4.488c1.727-2.861,1.778-6.436,0.133-9.343
+                            C116.454,1.801,113.371,0,110.026,0h-5.294L93.575,18.539z"></path>
+                            <polygon fill="#A9FD00" points="88.291,27.356 64.725,66.486 75.519,84.404 109.942,27.356"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <strong>Font Demo</strong>
+    </header>
+
+
+    <section class="demo wrapper">
+
+        <p class="title">Instructions</p>
+
+        <ul>
+            <li>
+                <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+            </li>
+            <li>
+                <span class="num">2</span>Add the CSS link to your website source code on header.
+                <code class="big">
+                    &lt;<span class="red">head</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;<span class="red">link</span> <span class="green">rel</span>=<span class="yellow">"stylesheet"</span> <span class="green">type</span>=<span class="yellow">"text/css"</span> <span class="green">href</span>=<span class="yellow">"your_website_domain/css_root/flaticon.css"</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;/<span class="red">head</span>&gt;
+                </code>
+            </li>
+
+            <li>
+                <p>
+                    <span class="num">3</span>Use the icon class on <code>"<span class="blue">display</span>:<span class="purple"> inline</span>"</code> elements:
+                    <br />
+                    Use example: <code>&lt;<span class="red">i</span> <span class="green">class</span>=<span class="yellow">&quot;flaticon-airplane49&quot;</span>&gt;&lt;/<span class="red">i</span>&gt;</code> or <code>&lt;<span class="red">span</span> <span class="green">class</span>=<span class="yellow">&quot;flaticon-airplane49&quot;</span>&gt;&lt;/<span class="red">span</span>&gt;</code>
+            </li>
+        </ul>
+
+    </section>
+
+
+
+
+   <section id="glyphs">          
+    
+      
+        <div class="glyph"><div class="glyph-icon flaticon-clock-2"></div>
+            <div class="class-name">.flaticon-clock-2</div>
+            <div class="author-name">Author: <a data-file="001-clock-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-food-1"></div>
+            <div class="class-name">.flaticon-food-1</div>
+            <div class="author-name">Author: <a data-file="002-food-1" href="http://www.flaticon.com/authors/darius-dan">Darius Dan</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-food"></div>
+            <div class="class-name">.flaticon-food</div>
+            <div class="author-name">Author: <a data-file="003-food" href="http://www.flaticon.com/authors/fps-web-agency">fps web agency</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cake"></div>
+            <div class="class-name">.flaticon-cake</div>
+            <div class="author-name">Author: <a data-file="004-cake" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-location-2"></div>
+            <div class="class-name">.flaticon-location-2</div>
+            <div class="author-name">Author: <a data-file="005-location-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-signs-1"></div>
+            <div class="class-name">.flaticon-signs-1</div>
+            <div class="author-name">Author: <a data-file="006-signs-1" href="http://www.flaticon.com/authors/maxim-basinski-premium">Maxim Basinski Premium</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-clock-1"></div>
+            <div class="class-name">.flaticon-clock-1</div>
+            <div class="author-name">Author: <a data-file="007-clock-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-location-1"></div>
+            <div class="class-name">.flaticon-location-1</div>
+            <div class="author-name">Author: <a data-file="008-location-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-location"></div>
+            <div class="class-name">.flaticon-location</div>
+            <div class="author-name">Author: <a data-file="009-location" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-construction-1"></div>
+            <div class="class-name">.flaticon-construction-1</div>
+            <div class="author-name">Author: <a data-file="010-construction-1" href="http://www.flaticon.com/authors/retinaicons">Retinaicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-violin-1"></div>
+            <div class="class-name">.flaticon-violin-1</div>
+            <div class="author-name">Author: <a data-file="011-violin-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-domra"></div>
+            <div class="class-name">.flaticon-domra</div>
+            <div class="author-name">Author: <a data-file="012-domra" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-microphone-1"></div>
+            <div class="class-name">.flaticon-microphone-1</div>
+            <div class="author-name">Author: <a data-file="013-microphone-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-djembe"></div>
+            <div class="class-name">.flaticon-djembe</div>
+            <div class="author-name">Author: <a data-file="014-djembe" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-drum-4"></div>
+            <div class="class-name">.flaticon-drum-4</div>
+            <div class="author-name">Author: <a data-file="015-drum-4" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-maracas-1"></div>
+            <div class="class-name">.flaticon-maracas-1</div>
+            <div class="author-name">Author: <a data-file="016-maracas-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-chimes"></div>
+            <div class="class-name">.flaticon-chimes</div>
+            <div class="author-name">Author: <a data-file="017-chimes" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cymbals-1"></div>
+            <div class="class-name">.flaticon-cymbals-1</div>
+            <div class="author-name">Author: <a data-file="018-cymbals-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-conga"></div>
+            <div class="class-name">.flaticon-conga</div>
+            <div class="author-name">Author: <a data-file="019-conga" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-keyboard"></div>
+            <div class="class-name">.flaticon-keyboard</div>
+            <div class="author-name">Author: <a data-file="020-keyboard" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-xylophone-2"></div>
+            <div class="class-name">.flaticon-xylophone-2</div>
+            <div class="author-name">Author: <a data-file="021-xylophone-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-acoustic-guitar"></div>
+            <div class="class-name">.flaticon-acoustic-guitar</div>
+            <div class="author-name">Author: <a data-file="022-acoustic-guitar" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-newborn"></div>
+            <div class="class-name">.flaticon-newborn</div>
+            <div class="author-name">Author: <a data-file="023-newborn" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-plane"></div>
+            <div class="class-name">.flaticon-plane</div>
+            <div class="author-name">Author: <a data-file="024-plane" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-baby-1"></div>
+            <div class="class-name">.flaticon-baby-1</div>
+            <div class="author-name">Author: <a data-file="025-baby-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cradle-1"></div>
+            <div class="class-name">.flaticon-cradle-1</div>
+            <div class="author-name">Author: <a data-file="026-cradle-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-construction"></div>
+            <div class="class-name">.flaticon-construction</div>
+            <div class="author-name">Author: <a data-file="027-construction" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cradle"></div>
+            <div class="class-name">.flaticon-cradle</div>
+            <div class="author-name">Author: <a data-file="028-cradle" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-train"></div>
+            <div class="class-name">.flaticon-train</div>
+            <div class="author-name">Author: <a data-file="029-train" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-moon"></div>
+            <div class="class-name">.flaticon-moon</div>
+            <div class="author-name">Author: <a data-file="030-moon" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-high-chair"></div>
+            <div class="class-name">.flaticon-high-chair</div>
+            <div class="author-name">Author: <a data-file="031-high-chair" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-socks"></div>
+            <div class="class-name">.flaticon-socks</div>
+            <div class="author-name">Author: <a data-file="032-socks" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-crib-toy"></div>
+            <div class="class-name">.flaticon-crib-toy</div>
+            <div class="author-name">Author: <a data-file="033-crib-toy" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-drawing"></div>
+            <div class="class-name">.flaticon-drawing</div>
+            <div class="author-name">Author: <a data-file="034-drawing" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bicycle-1"></div>
+            <div class="class-name">.flaticon-bicycle-1</div>
+            <div class="author-name">Author: <a data-file="035-bicycle-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-teddy-bear-1"></div>
+            <div class="class-name">.flaticon-teddy-bear-1</div>
+            <div class="author-name">Author: <a data-file="036-teddy-bear-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-paper-boat"></div>
+            <div class="class-name">.flaticon-paper-boat</div>
+            <div class="author-name">Author: <a data-file="037-paper-boat" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-body"></div>
+            <div class="class-name">.flaticon-body</div>
+            <div class="author-name">Author: <a data-file="038-body" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-doll-1"></div>
+            <div class="class-name">.flaticon-doll-1</div>
+            <div class="author-name">Author: <a data-file="039-doll-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-diaper"></div>
+            <div class="class-name">.flaticon-diaper</div>
+            <div class="author-name">Author: <a data-file="040-diaper" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sand-bucket"></div>
+            <div class="class-name">.flaticon-sand-bucket</div>
+            <div class="author-name">Author: <a data-file="041-sand-bucket" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bricks"></div>
+            <div class="class-name">.flaticon-bricks</div>
+            <div class="author-name">Author: <a data-file="042-bricks" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-alarm-clock-1"></div>
+            <div class="class-name">.flaticon-alarm-clock-1</div>
+            <div class="author-name">Author: <a data-file="043-alarm-clock-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-briefcase"></div>
+            <div class="class-name">.flaticon-briefcase</div>
+            <div class="author-name">Author: <a data-file="044-briefcase" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-set-square-1"></div>
+            <div class="class-name">.flaticon-set-square-1</div>
+            <div class="author-name">Author: <a data-file="045-set-square-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-paint-palette"></div>
+            <div class="class-name">.flaticon-paint-palette</div>
+            <div class="author-name">Author: <a data-file="046-paint-palette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-eraser"></div>
+            <div class="class-name">.flaticon-eraser</div>
+            <div class="author-name">Author: <a data-file="047-eraser" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-clip"></div>
+            <div class="class-name">.flaticon-clip</div>
+            <div class="author-name">Author: <a data-file="048-clip" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-compass"></div>
+            <div class="class-name">.flaticon-compass</div>
+            <div class="author-name">Author: <a data-file="049-compass" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bell-1"></div>
+            <div class="class-name">.flaticon-bell-1</div>
+            <div class="author-name">Author: <a data-file="050-bell-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-earth-globe"></div>
+            <div class="class-name">.flaticon-earth-globe</div>
+            <div class="author-name">Author: <a data-file="051-earth-globe" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-abacus-1"></div>
+            <div class="class-name">.flaticon-abacus-1</div>
+            <div class="author-name">Author: <a data-file="052-abacus-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-test"></div>
+            <div class="class-name">.flaticon-test</div>
+            <div class="author-name">Author: <a data-file="053-test" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bookshelf"></div>
+            <div class="class-name">.flaticon-bookshelf</div>
+            <div class="author-name">Author: <a data-file="054-bookshelf" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-school"></div>
+            <div class="class-name">.flaticon-school</div>
+            <div class="author-name">Author: <a data-file="055-school" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-add"></div>
+            <div class="class-name">.flaticon-add</div>
+            <div class="author-name">Author: <a data-file="056-add" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-gift"></div>
+            <div class="class-name">.flaticon-gift</div>
+            <div class="author-name">Author: <a data-file="057-gift" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-barbecue"></div>
+            <div class="class-name">.flaticon-barbecue</div>
+            <div class="author-name">Author: <a data-file="058-barbecue" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-christmas-sock"></div>
+            <div class="class-name">.flaticon-christmas-sock</div>
+            <div class="author-name">Author: <a data-file="059-christmas-sock" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-easter-eggs"></div>
+            <div class="class-name">.flaticon-easter-eggs</div>
+            <div class="author-name">Author: <a data-file="060-easter-eggs" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-baubles"></div>
+            <div class="class-name">.flaticon-baubles</div>
+            <div class="author-name">Author: <a data-file="061-baubles" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-mittens"></div>
+            <div class="class-name">.flaticon-mittens</div>
+            <div class="author-name">Author: <a data-file="062-mittens" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-snowman"></div>
+            <div class="class-name">.flaticon-snowman</div>
+            <div class="author-name">Author: <a data-file="063-snowman" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-vinyls"></div>
+            <div class="class-name">.flaticon-vinyls</div>
+            <div class="author-name">Author: <a data-file="064-vinyls" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-musical-note-1"></div>
+            <div class="class-name">.flaticon-musical-note-1</div>
+            <div class="author-name">Author: <a data-file="065-musical-note-1" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-quaver"></div>
+            <div class="class-name">.flaticon-quaver</div>
+            <div class="author-name">Author: <a data-file="066-quaver" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ipod"></div>
+            <div class="class-name">.flaticon-ipod</div>
+            <div class="author-name">Author: <a data-file="067-ipod" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-headphones"></div>
+            <div class="class-name">.flaticon-headphones</div>
+            <div class="author-name">Author: <a data-file="068-headphones" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-music-6"></div>
+            <div class="class-name">.flaticon-music-6</div>
+            <div class="author-name">Author: <a data-file="069-music-6" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-drumsticks"></div>
+            <div class="class-name">.flaticon-drumsticks</div>
+            <div class="author-name">Author: <a data-file="070-drumsticks" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cymbals"></div>
+            <div class="class-name">.flaticon-cymbals</div>
+            <div class="author-name">Author: <a data-file="071-cymbals" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-music-5"></div>
+            <div class="class-name">.flaticon-music-5</div>
+            <div class="author-name">Author: <a data-file="072-music-5" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-drum-3"></div>
+            <div class="class-name">.flaticon-drum-3</div>
+            <div class="author-name">Author: <a data-file="073-drum-3" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-drum-2"></div>
+            <div class="class-name">.flaticon-drum-2</div>
+            <div class="author-name">Author: <a data-file="074-drum-2" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-timpani"></div>
+            <div class="class-name">.flaticon-timpani</div>
+            <div class="author-name">Author: <a data-file="075-timpani" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-drum-1"></div>
+            <div class="class-name">.flaticon-drum-1</div>
+            <div class="author-name">Author: <a data-file="076-drum-1" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-drum"></div>
+            <div class="class-name">.flaticon-drum</div>
+            <div class="author-name">Author: <a data-file="077-drum" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-music-4"></div>
+            <div class="class-name">.flaticon-music-4</div>
+            <div class="author-name">Author: <a data-file="078-music-4" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-violin"></div>
+            <div class="class-name">.flaticon-violin</div>
+            <div class="author-name">Author: <a data-file="079-violin" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ukelele"></div>
+            <div class="class-name">.flaticon-ukelele</div>
+            <div class="author-name">Author: <a data-file="080-ukelele" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bass-guitar"></div>
+            <div class="class-name">.flaticon-bass-guitar</div>
+            <div class="author-name">Author: <a data-file="081-bass-guitar" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-maracas"></div>
+            <div class="class-name">.flaticon-maracas</div>
+            <div class="author-name">Author: <a data-file="082-maracas" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-saxophone"></div>
+            <div class="class-name">.flaticon-saxophone</div>
+            <div class="author-name">Author: <a data-file="083-saxophone" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-piccolo"></div>
+            <div class="class-name">.flaticon-piccolo</div>
+            <div class="author-name">Author: <a data-file="084-piccolo" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-trumpet"></div>
+            <div class="class-name">.flaticon-trumpet</div>
+            <div class="author-name">Author: <a data-file="085-trumpet" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-trombone"></div>
+            <div class="class-name">.flaticon-trombone</div>
+            <div class="author-name">Author: <a data-file="086-trombone" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-french-horn"></div>
+            <div class="class-name">.flaticon-french-horn</div>
+            <div class="author-name">Author: <a data-file="087-french-horn" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-music-3"></div>
+            <div class="class-name">.flaticon-music-3</div>
+            <div class="author-name">Author: <a data-file="088-music-3" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-music-2"></div>
+            <div class="class-name">.flaticon-music-2</div>
+            <div class="author-name">Author: <a data-file="089-music-2" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-music-1"></div>
+            <div class="class-name">.flaticon-music-1</div>
+            <div class="author-name">Author: <a data-file="090-music-1" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-music"></div>
+            <div class="class-name">.flaticon-music</div>
+            <div class="author-name">Author: <a data-file="091-music" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-triangle"></div>
+            <div class="class-name">.flaticon-triangle</div>
+            <div class="author-name">Author: <a data-file="092-triangle" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-xylophone-1"></div>
+            <div class="class-name">.flaticon-xylophone-1</div>
+            <div class="author-name">Author: <a data-file="093-xylophone-1" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-turntable"></div>
+            <div class="class-name">.flaticon-turntable</div>
+            <div class="author-name">Author: <a data-file="094-turntable" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-microphone"></div>
+            <div class="class-name">.flaticon-microphone</div>
+            <div class="author-name">Author: <a data-file="095-microphone" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-amplifier"></div>
+            <div class="class-name">.flaticon-amplifier</div>
+            <div class="author-name">Author: <a data-file="096-amplifier" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-equalizer"></div>
+            <div class="class-name">.flaticon-equalizer</div>
+            <div class="author-name">Author: <a data-file="097-equalizer" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-workstation"></div>
+            <div class="class-name">.flaticon-workstation</div>
+            <div class="author-name">Author: <a data-file="098-workstation" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-baby"></div>
+            <div class="class-name">.flaticon-baby</div>
+            <div class="author-name">Author: <a data-file="099-baby" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-wind"></div>
+            <div class="class-name">.flaticon-wind</div>
+            <div class="author-name">Author: <a data-file="100-wind" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-youtube"></div>
+            <div class="class-name">.flaticon-youtube</div>
+            <div class="author-name">Author: <a data-file="101-youtube" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-twitter"></div>
+            <div class="class-name">.flaticon-twitter</div>
+            <div class="author-name">Author: <a data-file="102-twitter" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-skype"></div>
+            <div class="class-name">.flaticon-skype</div>
+            <div class="author-name">Author: <a data-file="103-skype" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-linkedin"></div>
+            <div class="class-name">.flaticon-linkedin</div>
+            <div class="author-name">Author: <a data-file="104-linkedin" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-google-plus"></div>
+            <div class="class-name">.flaticon-google-plus</div>
+            <div class="author-name">Author: <a data-file="105-google-plus" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-facebook"></div>
+            <div class="class-name">.flaticon-facebook</div>
+            <div class="author-name">Author: <a data-file="106-facebook" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-pencil-2"></div>
+            <div class="class-name">.flaticon-pencil-2</div>
+            <div class="author-name">Author: <a data-file="107-pencil-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-draw-1"></div>
+            <div class="class-name">.flaticon-draw-1</div>
+            <div class="author-name">Author: <a data-file="108-draw-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-draw"></div>
+            <div class="class-name">.flaticon-draw</div>
+            <div class="author-name">Author: <a data-file="109-draw" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-set-square"></div>
+            <div class="class-name">.flaticon-set-square</div>
+            <div class="author-name">Author: <a data-file="110-set-square" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-rule"></div>
+            <div class="class-name">.flaticon-rule</div>
+            <div class="author-name">Author: <a data-file="111-rule" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-watercolor"></div>
+            <div class="class-name">.flaticon-watercolor</div>
+            <div class="author-name">Author: <a data-file="112-watercolor" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-agenda"></div>
+            <div class="class-name">.flaticon-agenda</div>
+            <div class="author-name">Author: <a data-file="113-agenda" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sports"></div>
+            <div class="class-name">.flaticon-sports</div>
+            <div class="author-name">Author: <a data-file="114-sports" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-american-football-1"></div>
+            <div class="class-name">.flaticon-american-football-1</div>
+            <div class="author-name">Author: <a data-file="115-american-football-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-grades"></div>
+            <div class="class-name">.flaticon-grades</div>
+            <div class="author-name">Author: <a data-file="116-grades" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-paper-plane"></div>
+            <div class="class-name">.flaticon-paper-plane</div>
+            <div class="author-name">Author: <a data-file="117-paper-plane" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-animals"></div>
+            <div class="class-name">.flaticon-animals</div>
+            <div class="author-name">Author: <a data-file="118-animals" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-nature"></div>
+            <div class="class-name">.flaticon-nature</div>
+            <div class="author-name">Author: <a data-file="119-nature" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-computer"></div>
+            <div class="class-name">.flaticon-computer</div>
+            <div class="author-name">Author: <a data-file="120-computer" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-physics"></div>
+            <div class="class-name">.flaticon-physics</div>
+            <div class="author-name">Author: <a data-file="121-physics" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-vision"></div>
+            <div class="class-name">.flaticon-vision</div>
+            <div class="author-name">Author: <a data-file="122-vision" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-desk"></div>
+            <div class="class-name">.flaticon-desk</div>
+            <div class="author-name">Author: <a data-file="123-desk" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-teacher-desk"></div>
+            <div class="class-name">.flaticon-teacher-desk</div>
+            <div class="author-name">Author: <a data-file="124-teacher-desk" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-high-school"></div>
+            <div class="class-name">.flaticon-high-school</div>
+            <div class="author-name">Author: <a data-file="125-high-school" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tray"></div>
+            <div class="class-name">.flaticon-tray</div>
+            <div class="author-name">Author: <a data-file="126-tray" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-swimming-pool"></div>
+            <div class="class-name">.flaticon-swimming-pool</div>
+            <div class="author-name">Author: <a data-file="127-swimming-pool" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-suitcase"></div>
+            <div class="class-name">.flaticon-suitcase</div>
+            <div class="author-name">Author: <a data-file="128-suitcase" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-snowflake"></div>
+            <div class="class-name">.flaticon-snowflake</div>
+            <div class="author-name">Author: <a data-file="129-snowflake" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-first-aid-kit"></div>
+            <div class="class-name">.flaticon-first-aid-kit</div>
+            <div class="author-name">Author: <a data-file="130-first-aid-kit" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-map"></div>
+            <div class="class-name">.flaticon-map</div>
+            <div class="author-name">Author: <a data-file="131-map" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-forest"></div>
+            <div class="class-name">.flaticon-forest</div>
+            <div class="author-name">Author: <a data-file="132-forest" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-signs"></div>
+            <div class="class-name">.flaticon-signs</div>
+            <div class="author-name">Author: <a data-file="133-signs" href="http://www.flaticon.com/authors/lucy-g">Lucy G</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-clock"></div>
+            <div class="class-name">.flaticon-clock</div>
+            <div class="author-name">Author: <a data-file="134-clock" href="http://www.flaticon.com/authors/lucy-g">Lucy G</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bag"></div>
+            <div class="class-name">.flaticon-bag</div>
+            <div class="author-name">Author: <a data-file="135-bag" href="http://www.flaticon.com/authors/alexey-tretina">Alexey Tretina</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-girl"></div>
+            <div class="class-name">.flaticon-girl</div>
+            <div class="author-name">Author: <a data-file="136-girl" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-joystick"></div>
+            <div class="class-name">.flaticon-joystick</div>
+            <div class="author-name">Author: <a data-file="137-joystick" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-house"></div>
+            <div class="class-name">.flaticon-house</div>
+            <div class="author-name">Author: <a data-file="138-house" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-top"></div>
+            <div class="class-name">.flaticon-top</div>
+            <div class="author-name">Author: <a data-file="139-top" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bucket"></div>
+            <div class="class-name">.flaticon-bucket</div>
+            <div class="author-name">Author: <a data-file="140-bucket" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bicycle"></div>
+            <div class="class-name">.flaticon-bicycle</div>
+            <div class="author-name">Author: <a data-file="141-bicycle" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-skipping-rope"></div>
+            <div class="class-name">.flaticon-skipping-rope</div>
+            <div class="author-name">Author: <a data-file="142-skipping-rope" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-boomerang"></div>
+            <div class="class-name">.flaticon-boomerang</div>
+            <div class="author-name">Author: <a data-file="143-boomerang" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-kindergarten"></div>
+            <div class="class-name">.flaticon-kindergarten</div>
+            <div class="author-name">Author: <a data-file="144-kindergarten" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-swing"></div>
+            <div class="class-name">.flaticon-swing</div>
+            <div class="author-name">Author: <a data-file="145-swing" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-kite"></div>
+            <div class="class-name">.flaticon-kite</div>
+            <div class="author-name">Author: <a data-file="146-kite" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-milk"></div>
+            <div class="class-name">.flaticon-milk</div>
+            <div class="author-name">Author: <a data-file="147-milk" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-apple-2"></div>
+            <div class="class-name">.flaticon-apple-2</div>
+            <div class="author-name">Author: <a data-file="148-apple-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cutlery-1"></div>
+            <div class="class-name">.flaticon-cutlery-1</div>
+            <div class="author-name">Author: <a data-file="149-cutlery-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-musical-note"></div>
+            <div class="class-name">.flaticon-musical-note</div>
+            <div class="author-name">Author: <a data-file="150-musical-note" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bell"></div>
+            <div class="class-name">.flaticon-bell</div>
+            <div class="author-name">Author: <a data-file="151-bell" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-rattle"></div>
+            <div class="class-name">.flaticon-rattle</div>
+            <div class="author-name">Author: <a data-file="152-rattle" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-synthesizer"></div>
+            <div class="class-name">.flaticon-synthesizer</div>
+            <div class="author-name">Author: <a data-file="153-synthesizer" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-xylophone"></div>
+            <div class="class-name">.flaticon-xylophone</div>
+            <div class="author-name">Author: <a data-file="154-xylophone" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-chair"></div>
+            <div class="class-name">.flaticon-chair</div>
+            <div class="author-name">Author: <a data-file="155-chair" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-puzzle-1"></div>
+            <div class="class-name">.flaticon-puzzle-1</div>
+            <div class="author-name">Author: <a data-file="156-puzzle-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-pencil-1"></div>
+            <div class="class-name">.flaticon-pencil-1</div>
+            <div class="author-name">Author: <a data-file="157-pencil-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-blocks"></div>
+            <div class="class-name">.flaticon-blocks</div>
+            <div class="author-name">Author: <a data-file="158-blocks" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-backpack"></div>
+            <div class="class-name">.flaticon-backpack</div>
+            <div class="author-name">Author: <a data-file="159-backpack" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-abacus"></div>
+            <div class="class-name">.flaticon-abacus</div>
+            <div class="author-name">Author: <a data-file="160-abacus" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-puzzle"></div>
+            <div class="class-name">.flaticon-puzzle</div>
+            <div class="author-name">Author: <a data-file="161-puzzle" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-car"></div>
+            <div class="class-name">.flaticon-car</div>
+            <div class="author-name">Author: <a data-file="162-car" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-helicopter"></div>
+            <div class="class-name">.flaticon-helicopter</div>
+            <div class="author-name">Author: <a data-file="163-helicopter" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-clown"></div>
+            <div class="class-name">.flaticon-clown</div>
+            <div class="author-name">Author: <a data-file="164-clown" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-doll"></div>
+            <div class="class-name">.flaticon-doll</div>
+            <div class="author-name">Author: <a data-file="165-doll" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-teddy-bear"></div>
+            <div class="class-name">.flaticon-teddy-bear</div>
+            <div class="author-name">Author: <a data-file="166-teddy-bear" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-alarm-clock"></div>
+            <div class="class-name">.flaticon-alarm-clock</div>
+            <div class="author-name">Author: <a data-file="167-alarm-clock" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-game"></div>
+            <div class="class-name">.flaticon-game</div>
+            <div class="author-name">Author: <a data-file="168-game" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bacteria"></div>
+            <div class="class-name">.flaticon-bacteria</div>
+            <div class="author-name">Author: <a data-file="169-bacteria" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-test-tube"></div>
+            <div class="class-name">.flaticon-test-tube</div>
+            <div class="author-name">Author: <a data-file="170-test-tube" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-flasks"></div>
+            <div class="class-name">.flaticon-flasks</div>
+            <div class="author-name">Author: <a data-file="171-flasks" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-scientist"></div>
+            <div class="class-name">.flaticon-scientist</div>
+            <div class="author-name">Author: <a data-file="172-scientist" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-earth"></div>
+            <div class="class-name">.flaticon-earth</div>
+            <div class="author-name">Author: <a data-file="173-earth" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-axis"></div>
+            <div class="class-name">.flaticon-axis</div>
+            <div class="author-name">Author: <a data-file="174-axis" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-telescope"></div>
+            <div class="class-name">.flaticon-telescope</div>
+            <div class="author-name">Author: <a data-file="175-telescope" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-solar-system"></div>
+            <div class="class-name">.flaticon-solar-system</div>
+            <div class="author-name">Author: <a data-file="176-solar-system" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-petri-dish"></div>
+            <div class="class-name">.flaticon-petri-dish</div>
+            <div class="author-name">Author: <a data-file="177-petri-dish" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-molecular"></div>
+            <div class="class-name">.flaticon-molecular</div>
+            <div class="author-name">Author: <a data-file="178-molecular" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-statistics"></div>
+            <div class="class-name">.flaticon-statistics</div>
+            <div class="author-name">Author: <a data-file="179-statistics" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-apple-1"></div>
+            <div class="class-name">.flaticon-apple-1</div>
+            <div class="author-name">Author: <a data-file="180-apple-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-rat"></div>
+            <div class="class-name">.flaticon-rat</div>
+            <div class="author-name">Author: <a data-file="181-rat" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-molecule-1"></div>
+            <div class="class-name">.flaticon-molecule-1</div>
+            <div class="author-name">Author: <a data-file="182-molecule-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-three-test-tubes"></div>
+            <div class="class-name">.flaticon-three-test-tubes</div>
+            <div class="author-name">Author: <a data-file="183-three-test-tubes" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-water"></div>
+            <div class="class-name">.flaticon-water</div>
+            <div class="author-name">Author: <a data-file="184-water" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-zoom"></div>
+            <div class="class-name">.flaticon-zoom</div>
+            <div class="author-name">Author: <a data-file="185-zoom" href="http://www.flaticon.com/authors/hanan">Hanan</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-square"></div>
+            <div class="class-name">.flaticon-square</div>
+            <div class="author-name">Author: <a data-file="186-square" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tool"></div>
+            <div class="class-name">.flaticon-tool</div>
+            <div class="author-name">Author: <a data-file="187-tool" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-school-bus-front"></div>
+            <div class="class-name">.flaticon-school-bus-front</div>
+            <div class="author-name">Author: <a data-file="188-school-bus-front" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-two-test-tubes"></div>
+            <div class="class-name">.flaticon-two-test-tubes</div>
+            <div class="author-name">Author: <a data-file="189-two-test-tubes" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-children-backpack"></div>
+            <div class="class-name">.flaticon-children-backpack</div>
+            <div class="author-name">Author: <a data-file="190-children-backpack" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-circle"></div>
+            <div class="class-name">.flaticon-circle</div>
+            <div class="author-name">Author: <a data-file="191-circle" href="http://www.flaticon.com/authors/google">Google</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-close-button"></div>
+            <div class="class-name">.flaticon-close-button</div>
+            <div class="author-name">Author: <a data-file="192-close-button" href="http://www.flaticon.com/authors/google">Google</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-move-to-the-next-page-symbol"></div>
+            <div class="class-name">.flaticon-move-to-the-next-page-symbol</div>
+            <div class="author-name">Author: <a data-file="193-move-to-the-next-page-symbol" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-left-arrow-chevron"></div>
+            <div class="class-name">.flaticon-left-arrow-chevron</div>
+            <div class="author-name">Author: <a data-file="194-left-arrow-chevron" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-global"></div>
+            <div class="class-name">.flaticon-global</div>
+            <div class="author-name">Author: <a data-file="195-global" href="http://www.flaticon.com/authors/nikita-golubev">Nikita Golubev</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-teacher"></div>
+            <div class="class-name">.flaticon-teacher</div>
+            <div class="author-name">Author: <a data-file="196-teacher" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-sharpener"></div>
+            <div class="class-name">.flaticon-sharpener</div>
+            <div class="author-name">Author: <a data-file="197-sharpener" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-professor"></div>
+            <div class="class-name">.flaticon-professor</div>
+            <div class="author-name">Author: <a data-file="198-professor" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-pencil"></div>
+            <div class="class-name">.flaticon-pencil</div>
+            <div class="author-name">Author: <a data-file="199-pencil" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-kindergarden"></div>
+            <div class="class-name">.flaticon-kindergarden</div>
+            <div class="author-name">Author: <a data-file="200-kindergarden" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-student-2"></div>
+            <div class="class-name">.flaticon-student-2</div>
+            <div class="author-name">Author: <a data-file="201-student-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-easel"></div>
+            <div class="class-name">.flaticon-easel</div>
+            <div class="author-name">Author: <a data-file="202-easel" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-court"></div>
+            <div class="class-name">.flaticon-court</div>
+            <div class="author-name">Author: <a data-file="203-court" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-calculator"></div>
+            <div class="class-name">.flaticon-calculator</div>
+            <div class="author-name">Author: <a data-file="204-calculator" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-school-bus-1"></div>
+            <div class="class-name">.flaticon-school-bus-1</div>
+            <div class="author-name">Author: <a data-file="205-school-bus-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-student-1"></div>
+            <div class="class-name">.flaticon-student-1</div>
+            <div class="author-name">Author: <a data-file="206-student-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-mountain"></div>
+            <div class="class-name">.flaticon-mountain</div>
+            <div class="author-name">Author: <a data-file="207-mountain" href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-bonfire"></div>
+            <div class="class-name">.flaticon-bonfire</div>
+            <div class="author-name">Author: <a data-file="208-bonfire" href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-open"></div>
+            <div class="class-name">.flaticon-open</div>
+            <div class="author-name">Author: <a data-file="209-open" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-tea"></div>
+            <div class="class-name">.flaticon-tea</div>
+            <div class="author-name">Author: <a data-file="210-tea" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cupcake"></div>
+            <div class="class-name">.flaticon-cupcake</div>
+            <div class="author-name">Author: <a data-file="211-cupcake" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-chicken"></div>
+            <div class="class-name">.flaticon-chicken</div>
+            <div class="author-name">Author: <a data-file="212-chicken" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-cutlery"></div>
+            <div class="class-name">.flaticon-cutlery</div>
+            <div class="author-name">Author: <a data-file="213-cutlery" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-salver"></div>
+            <div class="class-name">.flaticon-salver</div>
+            <div class="author-name">Author: <a data-file="214-salver" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-ice-cream"></div>
+            <div class="class-name">.flaticon-ice-cream</div>
+            <div class="author-name">Author: <a data-file="215-ice-cream" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-book-1"></div>
+            <div class="class-name">.flaticon-book-1</div>
+            <div class="author-name">Author: <a data-file="216-book-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-open-book"></div>
+            <div class="class-name">.flaticon-open-book</div>
+            <div class="author-name">Author: <a data-file="217-open-book" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-book"></div>
+            <div class="class-name">.flaticon-book</div>
+            <div class="author-name">Author: <a data-file="218-book" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-board"></div>
+            <div class="class-name">.flaticon-board</div>
+            <div class="author-name">Author: <a data-file="219-board" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-blackboard"></div>
+            <div class="class-name">.flaticon-blackboard</div>
+            <div class="author-name">Author: <a data-file="220-blackboard" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-student"></div>
+            <div class="class-name">.flaticon-student</div>
+            <div class="author-name">Author: <a data-file="221-student" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-diploma"></div>
+            <div class="class-name">.flaticon-diploma</div>
+            <div class="author-name">Author: <a data-file="222-diploma" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-medal"></div>
+            <div class="class-name">.flaticon-medal</div>
+            <div class="author-name">Author: <a data-file="223-medal" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-glasses"></div>
+            <div class="class-name">.flaticon-glasses</div>
+            <div class="author-name">Author: <a data-file="224-glasses" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-mortarboard"></div>
+            <div class="class-name">.flaticon-mortarboard</div>
+            <div class="author-name">Author: <a data-file="225-mortarboard" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-american-football"></div>
+            <div class="class-name">.flaticon-american-football</div>
+            <div class="author-name">Author: <a data-file="226-american-football" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-notebook"></div>
+            <div class="class-name">.flaticon-notebook</div>
+            <div class="author-name">Author: <a data-file="227-notebook" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-whistle"></div>
+            <div class="class-name">.flaticon-whistle</div>
+            <div class="author-name">Author: <a data-file="228-whistle" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-momentum"></div>
+            <div class="class-name">.flaticon-momentum</div>
+            <div class="author-name">Author: <a data-file="229-momentum" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-molecule"></div>
+            <div class="class-name">.flaticon-molecule</div>
+            <div class="author-name">Author: <a data-file="230-molecule" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-microscope"></div>
+            <div class="class-name">.flaticon-microscope</div>
+            <div class="author-name">Author: <a data-file="231-microscope" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-flask"></div>
+            <div class="class-name">.flaticon-flask</div>
+            <div class="author-name">Author: <a data-file="232-flask" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-test-tubes"></div>
+            <div class="class-name">.flaticon-test-tubes</div>
+            <div class="author-name">Author: <a data-file="233-test-tubes" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-apple"></div>
+            <div class="class-name">.flaticon-apple</div>
+            <div class="author-name">Author: <a data-file="234-apple" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-school-bus"></div>
+            <div class="class-name">.flaticon-school-bus</div>
+            <div class="author-name">Author: <a data-file="235-school-bus" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon flaticon-light"></div>
+            <div class="class-name">.flaticon-light</div>
+            <div class="author-name">Author: <a data-file="236-light" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+
+    </section>
+
+
+
+    <section class="attribution wrapper"   style="text-align:center;">
+
+      <div class="title">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>. <div><p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="001-clock-2" href="http://www.freepik.com">Freepik</a>, <a data-file="207-mountain" href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a>, <a data-file="195-global" href="http://www.flaticon.com/authors/nikita-golubev">Nikita Golubev</a>, <a data-file="191-circle" href="http://www.flaticon.com/authors/google">Google</a>, <a data-file="185-zoom" href="http://www.flaticon.com/authors/hanan">Hanan</a>, <a data-file="135-bag" href="http://www.flaticon.com/authors/alexey-tretina">Alexey Tretina</a>, <a data-file="133-signs" href="http://www.flaticon.com/authors/lucy-g">Lucy G</a>, <a data-file="101-youtube" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a>, <a data-file="056-add" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>, <a data-file="010-construction-1" href="http://www.flaticon.com/authors/retinaicons">Retinaicons</a>, <a data-file="006-signs-1" href="http://www.flaticon.com/authors/maxim-basinski-premium">Maxim Basinski Premium</a>, <a data-file="003-food" href="http://www.flaticon.com/authors/fps-web-agency">fps web agency</a>, <a data-file="002-food-1" href="http://www.flaticon.com/authors/darius-dan">Darius Dan</a></p>  </div>
+      </div>
+      <div class="title">Copy the Attribution License:</div>
+
+    <textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;. <p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="001-clock-2" href="http://www.freepik.com">Freepik</a>, <a data-file="207-mountain" href="http://www.flaticon.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a>, <a data-file="195-global" href="http://www.flaticon.com/authors/nikita-golubev">Nikita Golubev</a>, <a data-file="191-circle" href="http://www.flaticon.com/authors/google">Google</a>, <a data-file="185-zoom" href="http://www.flaticon.com/authors/hanan">Hanan</a>, <a data-file="135-bag" href="http://www.flaticon.com/authors/alexey-tretina">Alexey Tretina</a>, <a data-file="133-signs" href="http://www.flaticon.com/authors/lucy-g">Lucy G</a>, <a data-file="101-youtube" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a>, <a data-file="056-add" href="http://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>, <a data-file="010-construction-1" href="http://www.flaticon.com/authors/retinaicons">Retinaicons</a>, <a data-file="006-signs-1" href="http://www.flaticon.com/authors/maxim-basinski-premium">Maxim Basinski Premium</a>, <a data-file="003-food" href="http://www.flaticon.com/authors/fps-web-agency">fps web agency</a>, <a data-file="002-food-1" href="http://www.flaticon.com/authors/darius-dan">Darius Dan</a></p>  
+     </textarea>
+
+    </section>
+
+    <section class="iconsuse">
+
+          <div class="title">Examples:</div>            
+             
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-clock-2"></i> 
+                    <span>&lt;i class=&quot;flaticon-clock-2&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-food-1"></i> 
+                    <span>&lt;i class=&quot;flaticon-food-1&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-food"></i> 
+                    <span>&lt;i class=&quot;flaticon-food&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon flaticon-cake"></i> 
+                    <span>&lt;i class=&quot;flaticon-cake&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+                       
+        </div>
+                            
+    </section>
+
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>

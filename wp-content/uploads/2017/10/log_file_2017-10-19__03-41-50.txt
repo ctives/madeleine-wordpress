@@ -1,0 +1,62 @@
+
+---Downloaded files---
+The import files for: Enfant Primary School were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8888
+Data file = /Users/ives/Documents/projects/websites/madeleine-wordpress/htdocs/wp-content/uploads/2017/10/demo-content-import-file_2017-10-19__03-41-50.xml
+Widget file = /Users/ives/Documents/projects/websites/madeleine-wordpress/htdocs/wp-content/uploads/2017/10/demo-widgets-import-file_2017-10-19__03-41-50.json
+Customizer file = /Users/ives/Documents/projects/websites/madeleine-wordpress/htdocs/wp-content/uploads/2017/10/demo-customizer-import-file_2017-10-19__03-41-50.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Header : 
+
+Text - Find Us - Imported
+Text - Open Time - Imported
+
+Sidebar : 
+
+Text - Our Features - Imported
+Enfant Recent Posts - Recent Posts - Imported
+Archives - Archives - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+
+Footer : 
+
+Text - About Us - Imported
+Enfant Recent Posts - Recent Posts - Imported
+Text - Our Features - Imported
+
+Shop : 
+
+Cart - Cart - Imported
+Products by Rating - Top rated products - Imported
+Filter Products by Price - Price Filter - Imported
+Product Tag Cloud - Product tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
