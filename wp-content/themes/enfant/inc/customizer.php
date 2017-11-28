@@ -199,7 +199,7 @@ function enfant_customizer( $wp_customize ) {
     $wp_customize->add_setting(
         'google_maps_api_key' ,
         array(
-            'default' => 'AIzaSyDuklOQ79qeWRyU1cDr29QsevDd9uJSXBw',
+            'default' => 'AIzaSyDxt_hWGpy5L_y6Bh1mh20QzKXti4Do2ug',
             'sanitize_callback' => 'enfant_sanitize_text',
         )
     );

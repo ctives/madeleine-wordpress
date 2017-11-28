@@ -52,5 +52,4 @@ get_template_part( 'template-parts/header' );
         </div>
     </div>
 </div>
-
 <?php get_footer() ?>

@@ -34,11 +34,6 @@ while ($query->have_posts()) : $query->the_post();
             <div class="row table-row">
                 <div class="first ztl-col ' . enfant_get_bc('10', '10', '12', '12') . '">
                     <div class="ztl-flex">
-                        <div class="ztl-post-thumbnail">
-                            <a href="'.get_the_permalink().'" title="'.get_the_title().'">
-                            ' . $enfant_event_thumb . ' 
-                            </a>  
-                        </div>
                         <div class="ztl-post-details">
                             <div class="ztl-event-info ztl-font-bold">
                                 <span class="ztl-event-date ztl-date-line">
@@ -58,7 +53,7 @@ while ($query->have_posts()) : $query->the_post();
 
                 <div class="second ztl-col ' . enfant_get_bc('2', '2', '12', '12') . '">
                     <div class="ztl-button-one">
-                        <a href="'.get_the_permalink().'" title="'.get_the_title().'">'. esc_html__('Register', 'zoutula').'</a>
+                        <a href="'.get_the_permalink().'" title="'.get_the_title().'">'. esc_html__('Details', 'zoutula').'</a>
                     </div>
                 </div>
             </div>
